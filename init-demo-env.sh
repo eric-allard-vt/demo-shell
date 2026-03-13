@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Match the Docker API version of the host's Docker Engine
+export DOCKER_API_VERSION=1.43
+
 IMAGE_NAME="demo-shell"
 TIMESTAMP=$(date +%Y%m%d-%H%M%S)
 

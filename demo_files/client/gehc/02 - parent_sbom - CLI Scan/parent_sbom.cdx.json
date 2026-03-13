@@ -1,0 +1,3505 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:afdbd646-7538-4012-a9af-7e68e46e6a72",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-08-27T17:11:23Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "SOOS SCA",
+          "version": "1.0.0.0",
+          "externalReferences": [
+            {
+              "url": "https://soos.io/",
+              "type": "website"
+            },
+            {
+              "url": "https://soos.io/terms-of-service",
+              "type": "license",
+              "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "email": "support@soos.io"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "author": "  (support@soos.io)",
+      "publisher": "SOOS",
+      "name": "parent_sbom",
+      "version": "1.2.3",
+      "description": "SBOM for Genie Ultima XR240amx@7.2.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "094a35c841d2dfb870c36140b262bc5af5546de7fc4fc077f17b6b7c7e138e11"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "CC0-1.0"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:unknown/child_sbom@4.5.6",
+      "name": "child_sbom",
+      "version": "4.5.6",
+      "licenses": [],
+      "purl": "pkg:unknown/child_sbom@4.5.6",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:d4aa2525-a409-4c3e-9578-f1e3a549828d/1#child_sbom",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "234...299"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/autoconf@2.71",
+      "supplier": {
+        "url": [
+          "https://www.gnu.org/software/autoconf/"
+        ],
+        "contact": []
+      },
+      "name": "autoconf",
+      "version": "2.71",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f9307992909d7fb3df459340f1932809"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/autoconf@2.71",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/autoconf?version=2.71",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/automake@1.16.5",
+      "supplier": {
+        "url": [
+          "https://www.gnu.org/software/automake/"
+        ],
+        "contact": []
+      },
+      "name": "automake",
+      "version": "1.16.5",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "058bda3e21c36c9aa8425daf3c1faf50"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/automake@1.16.5",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/automake?version=1.16.5",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/brotli@1.1.0",
+      "supplier": {
+        "name": "google",
+        "url": [
+          "https://github.com/google/brotli"
+        ],
+        "contact": []
+      },
+      "name": "brotli",
+      "version": "1.1.0",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d56d7bb9ca722942aba17369cb5c0519"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/brotli@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/brotli?version=1.1.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/bzip2@1.0.8",
+      "supplier": {
+        "url": [
+          "https://sourceware.org/bzip2"
+        ],
+        "contact": []
+      },
+      "name": "bzip2",
+      "version": "1.0.8",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "457c272f7da34cb9c67456dd217d36c4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "bzip2-1.0.8"
+          }
+        }
+      ],
+      "purl": "pkg:conan/bzip2@1.0.8",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/bzip2?version=1.0.8",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/cairo@1.18.0",
+      "supplier": {
+        "url": [
+          "https://cairographics.org/"
+        ],
+        "contact": []
+      },
+      "name": "cairo",
+      "version": "1.18.0",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6133b44d7bf4cf69c5361cbc864f6a58"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:conan/cairo@1.18.0",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/cairo?version=1.18.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/cereal@1.3.2",
+      "supplier": {
+        "name": "USCiLab",
+        "url": [
+          "https://github.com/USCiLab/cereal"
+        ],
+        "contact": []
+      },
+      "name": "cereal",
+      "version": "1.3.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b94802e904e1129e7fdb46d9bff5321d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/cereal@1.3.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/cereal?version=1.3.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/dbus@1.15.8",
+      "supplier": {
+        "url": [
+          "https://www.freedesktop.org/wiki/Software/dbus"
+        ],
+        "contact": []
+      },
+      "name": "dbus",
+      "version": "1.15.8",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f2ddc22dc2f927b676570f333ea8f452"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "(AFL-2.1 OR GPL-2.0-or-later) AND DocumentRef-COPYING"
+        }
+      ],
+      "purl": "pkg:conan/dbus@1.15.8",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/dbus?version=1.15.8",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/double-conversion@3.2.0",
+      "supplier": {
+        "name": "google",
+        "url": [
+          "https://github.com/google/double-conversion"
+        ],
+        "contact": []
+      },
+      "name": "double-conversion",
+      "version": "3.2.0",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dba4f6ac0cfbfb3ab6f0b6bd4130af55"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/double-conversion@3.2.0",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/double-conversion?version=3.2.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/egl@system",
+      "supplier": {
+        "url": [
+          "https://www.khronos.org/egl"
+        ],
+        "contact": []
+      },
+      "name": "egl",
+      "version": "system",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "068ac3037d8cf01f768d0e001e6dcd76"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/egl@system",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/egl?version=system",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/expat@2.6.2",
+      "supplier": {
+        "name": "libexpat",
+        "url": [
+          "https://github.com/libexpat/libexpat"
+        ],
+        "contact": []
+      },
+      "name": "expat",
+      "version": "2.6.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2d385d0d50eb5561006a7ff9e356656b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/expat@2.6.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/expat?version=2.6.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/fftw@3.3.10",
+      "supplier": {
+        "url": [
+          "http://www.fftw.org/"
+        ],
+        "contact": []
+      },
+      "name": "fftw",
+      "version": "3.3.10",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ae4a2efdec8d27e398260587d0ff2457"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/fftw@3.3.10",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/fftw?version=3.3.10",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/flac@1.4.2",
+      "supplier": {
+        "name": "xiph",
+        "url": [
+          "https://github.com/xiph/flac"
+        ],
+        "contact": []
+      },
+      "name": "flac",
+      "version": "1.4.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d4051f8b37ee93725dea40dfd6a10168"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "GFDL-1.2"
+          }
+        },
+        {
+          "license": {
+            "id": "GFDL-1.3"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/flac@1.4.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/flac?version=1.4.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/fontconfig@2.15.0",
+      "supplier": {
+        "url": [
+          "https://gitlab.freedesktop.org/fontconfig/fontconfig"
+        ],
+        "contact": []
+      },
+      "name": "fontconfig",
+      "version": "2.15.0",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e0b660ff9389f08e1aca1a67d748d737"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/fontconfig@2.15.0",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/fontconfig?version=2.15.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/freetype@2.13.2",
+      "supplier": {
+        "url": [
+          "https://www.freetype.org/"
+        ],
+        "contact": []
+      },
+      "name": "freetype",
+      "version": "2.13.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7934d59c447d72edcd56025dc60e1aeb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "FTL"
+          }
+        }
+      ],
+      "purl": "pkg:conan/freetype@2.13.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/freetype?version=2.13.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/fribidi@1.0.13",
+      "supplier": {
+        "name": "fribidi",
+        "url": [
+          "https://github.com/fribidi/fribidi"
+        ],
+        "contact": []
+      },
+      "name": "fribidi",
+      "version": "1.0.13",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "861199a83fa19c194beeb7f6234d9d51"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ],
+      "purl": "pkg:conan/fribidi@1.0.13",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/fribidi?version=1.0.13",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/glext@cci.20210420",
+      "supplier": {
+        "url": [
+          "https://www.khronos.org/registry/OpenGL/index_gl.php"
+        ],
+        "contact": []
+      },
+      "name": "glext",
+      "version": "cci.20210420",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3a13dd2b83caaa59e353809ed6926b9a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/glext@cci.20210420",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/glext?version=cci.20210420",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/glib@2.78.3",
+      "supplier": {
+        "url": [
+          "https://gitlab.gnome.org/GNOME/glib"
+        ],
+        "contact": []
+      },
+      "name": "glib",
+      "version": "2.78.3",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0d214f34a22088571a43892d3fd41093"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/glib@2.78.3",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/glib?version=2.78.3",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/graphene@1.10.8",
+      "supplier": {
+        "url": [
+          "http://ebassi.github.io/graphene/"
+        ],
+        "contact": []
+      },
+      "name": "graphene",
+      "version": "1.10.8",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8f0e385bc9e23eba47c2d1697c3f512a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/graphene@1.10.8",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/graphene?version=1.10.8",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/gst-plugins-base@1.19.2",
+      "supplier": {
+        "url": [
+          "https://gstreamer.freedesktop.org/"
+        ],
+        "contact": []
+      },
+      "name": "gst-plugins-base",
+      "version": "1.19.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "386b820938334a8f506ab6ce16f12edc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:conan/gst-plugins-base@1.19.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/gst-plugins-base?version=1.19.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/gstreamer@1.19.2",
+      "supplier": {
+        "url": [
+          "https://gstreamer.freedesktop.org/"
+        ],
+        "contact": []
+      },
+      "name": "gstreamer",
+      "version": "1.19.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ec83a3055386dc6ae606c28b60bd7fae"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/gstreamer@1.19.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/gstreamer?version=1.19.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/harfbuzz@8.3.0",
+      "supplier": {
+        "url": [
+          "https://harfbuzz.github.io/"
+        ],
+        "contact": []
+      },
+      "name": "harfbuzz",
+      "version": "8.3.0",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c83405ed297bad6c9e9587e2a19c686a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/harfbuzz@8.3.0",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/harfbuzz?version=8.3.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/icu@74.1",
+      "supplier": {
+        "url": [
+          "http://site.icu-project.org/"
+        ],
+        "contact": []
+      },
+      "name": "icu",
+      "version": "74.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "aed74ae12ebd59caef2257d519900b9d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Unicode-3.0"
+          }
+        },
+        {
+          "license": {
+            "id": "ICU"
+          }
+        }
+      ],
+      "purl": "pkg:conan/icu@74.1",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/icu?version=74.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/khrplatform@cci.20200529",
+      "supplier": {
+        "url": [
+          "https://www.khronos.org/registry/EGL/"
+        ],
+        "contact": []
+      },
+      "name": "khrplatform",
+      "version": "cci.20200529",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b1ab63bdc5fcef59f4cb2b96749a61cc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/khrplatform@cci.20200529",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/khrplatform?version=cci.20200529",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/krb5@1.18.3",
+      "name": "krb5",
+      "version": "1.18.3",
+      "licenses": [],
+      "purl": "pkg:conan/krb5@1.18.3",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libalsa@1.2.10",
+      "supplier": {
+        "name": "alsa-project",
+        "url": [
+          "https://github.com/alsa-project/alsa-lib"
+        ],
+        "contact": []
+      },
+      "name": "libalsa",
+      "version": "1.2.10",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e64d5e1ced869a2f676145bab4f4a181"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libalsa@1.2.10",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libalsa?version=1.2.10",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libcap@2.69",
+      "supplier": {
+        "url": [
+          "https://git.kernel.org/pub/scm/libs/libcap/libcap.git"
+        ],
+        "contact": []
+      },
+      "name": "libcap",
+      "version": "2.69",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7ef2d60864c2e58e89db957be936dc49"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libcap@2.69",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libcap?version=2.69",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libdrm@2.4.109",
+      "supplier": {
+        "url": [
+          "https://gitlab.freedesktop.org/mesa/drm"
+        ],
+        "contact": []
+      },
+      "name": "libdrm",
+      "version": "2.4.109",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f05f6f097b7c4e009c75904ef1f5ad41"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libdrm@2.4.109",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libdrm?version=2.4.109",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libelf@0.8.13",
+      "supplier": {
+        "url": [
+          "https://directory.fsf.org/wiki/Libelf"
+        ],
+        "contact": []
+      },
+      "name": "libelf",
+      "version": "0.8.13",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4f70a3555809ae50cc8add44f0f84288"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libelf@0.8.13",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libelf?version=0.8.13",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libffi@3.4.4",
+      "supplier": {
+        "url": [
+          "https://sourceware.org/libffi/"
+        ],
+        "contact": []
+      },
+      "name": "libffi",
+      "version": "3.4.4",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "72cccac6139293b6e97ec9cd676547ff"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libffi@3.4.4",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libffi?version=3.4.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libgettext@0.22",
+      "supplier": {
+        "url": [
+          "https://www.gnu.org/software/gettext"
+        ],
+        "contact": []
+      },
+      "name": "libgettext",
+      "version": "0.22",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "35d2811b2dd27a98f69e4daa86ca2000"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libgettext@0.22",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libgettext?version=0.22",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libiconv@1.17",
+      "supplier": {
+        "url": [
+          "https://www.gnu.org/software/libiconv/"
+        ],
+        "contact": []
+      },
+      "name": "libiconv",
+      "version": "1.17",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "73fefc1b696e069df90fd1d18aa63edd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libiconv@1.17",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libiconv?version=1.17",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libjpeg-turbo@2.1.3",
+      "supplier": {
+        "url": [
+          "https://libjpeg-turbo.org/"
+        ],
+        "contact": []
+      },
+      "name": "libjpeg-turbo",
+      "version": "2.1.3",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f0995120ece595d121f640b52ff273e2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libjpeg-turbo@2.1.3",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libjpeg-turbo?version=2.1.3",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libjpeg@9d",
+      "supplier": {
+        "url": [
+          "http://ijg.org/"
+        ],
+        "contact": []
+      },
+      "name": "libjpeg",
+      "version": "9d",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "671fd0211764b392dd212f7a57e62673"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "IJG"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libjpeg@9d",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libjpeg?version=9d",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libmount@2.39.2",
+      "supplier": {
+        "url": [
+          "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git"
+        ],
+        "contact": []
+      },
+      "name": "libmount",
+      "version": "2.39.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "64850679fa9d5ead878e5076b0cab2a8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libmount@2.39.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libmount?version=2.39.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libmp3lame@3.100",
+      "supplier": {
+        "url": [
+          "http://lame.sourceforge.net/"
+        ],
+        "contact": []
+      },
+      "name": "libmp3lame",
+      "version": "3.100",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "44b12d19316eb2b223d98d3e75dae438"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libmp3lame@3.100",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libmp3lame?version=3.100",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libmysqlclient@8.0.29",
+      "supplier": {
+        "url": [
+          "https://dev.mysql.com/downloads/mysql/"
+        ],
+        "contact": []
+      },
+      "name": "libmysqlclient",
+      "version": "8.0.29",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "eb229ae3019a15d3d209cdd3ec854d73"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libmysqlclient@8.0.29",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libmysqlclient?version=8.0.29",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libpciaccess@0.17",
+      "supplier": {
+        "url": [
+          "https://gitlab.freedesktop.org/xorg/lib/libpciaccess"
+        ],
+        "contact": []
+      },
+      "name": "libpciaccess",
+      "version": "0.17",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8f027f1f793b3db91b1ab0ff99c2202d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "X11"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libpciaccess@0.17",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libpciaccess?version=0.17",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libpng@1.6.43",
+      "supplier": {
+        "url": [
+          "http://www.libpng.org/"
+        ],
+        "contact": []
+      },
+      "name": "libpng",
+      "version": "1.6.43",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c219d8f01983bac10c404fc613605eef"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "libpng-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libpng@1.6.43",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libpng?version=1.6.43",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libpq@14.2",
+      "supplier": {
+        "url": [
+          "https://www.postgresql.org/docs/current/static/libpq.html"
+        ],
+        "contact": []
+      },
+      "name": "libpq",
+      "version": "14.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "00bc8ba61ca3fc75c3e9b05a86b7bf28"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "PostgreSQL"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libpq@14.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libpq?version=14.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libselinux@3.6",
+      "supplier": {
+        "name": "SELinuxProject",
+        "url": [
+          "https://github.com/SELinuxProject/selinux"
+        ],
+        "contact": []
+      },
+      "name": "libselinux",
+      "version": "3.6",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5a78ff6ae5034eeaac8da723361a8ce4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "libselinux-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libselinux@3.6",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libselinux?version=3.6",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libsndfile@1.2.2",
+      "supplier": {
+        "url": [
+          "http://www.mega-nerd.com/libsndfile"
+        ],
+        "contact": []
+      },
+      "name": "libsndfile",
+      "version": "1.2.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b3662f832e29507e8d9840a43737cc14"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libsndfile@1.2.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libsndfile?version=1.2.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libsystemd@253.6",
+      "supplier": {
+        "url": [
+          "https://www.freedesktop.org/wiki/Software/systemd/"
+        ],
+        "contact": []
+      },
+      "name": "libsystemd",
+      "version": "253.6",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "303816bb0c11af7b3983687dcb7814a7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libsystemd@253.6",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libsystemd?version=253.6",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libtool@2.4.7",
+      "supplier": {
+        "url": [
+          "https://www.gnu.org/software/libtool/"
+        ],
+        "contact": []
+      },
+      "name": "libtool",
+      "version": "2.4.7",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "08316dad5c72c541ed21e039e4cf217b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libtool@2.4.7",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libtool?version=2.4.7",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libunwind@1.6.2",
+      "supplier": {
+        "name": "libunwind",
+        "url": [
+          "https://github.com/libunwind/libunwind"
+        ],
+        "contact": []
+      },
+      "name": "libunwind",
+      "version": "1.6.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ef8fdccb0bc8f9144a7f20a76f3148ad"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libunwind@1.6.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libunwind?version=1.6.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libxcrypt@4.4.36",
+      "supplier": {
+        "name": "besser82",
+        "url": [
+          "https://github.com/besser82/libxcrypt"
+        ],
+        "contact": []
+      },
+      "name": "libxcrypt",
+      "version": "4.4.36",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4b4e8f20794f1997dd59eeed0b7cdcfb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libxcrypt@4.4.36",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libxcrypt?version=4.4.36",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libxft@2.3.8",
+      "supplier": {
+        "url": [
+          "https://www.x.org/wiki/"
+        ],
+        "contact": []
+      },
+      "name": "libxft",
+      "version": "2.3.8",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5a86906f15dcf469406c4b186410bf0b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "X11"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libxft@2.3.8",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libxft?version=2.3.8",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libxml2@2.12.7",
+      "supplier": {
+        "url": [
+          "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/"
+        ],
+        "contact": []
+      },
+      "name": "libxml2",
+      "version": "2.12.7",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1c4d20b7ab8b618ce699733723ba4df6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libxml2@2.12.7",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libxml2?version=2.12.7",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libxshmfence@1.3",
+      "supplier": {
+        "url": [
+          "https://gitlab.freedesktop.org/xorg/lib/libxshmfence"
+        ],
+        "contact": []
+      },
+      "name": "libxshmfence",
+      "version": "1.3",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ebf4635349864ddb600278660ea00497"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "X11"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libxshmfence@1.3",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libxshmfence?version=1.3",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/linux-headers-generic@6.5.9",
+      "supplier": {
+        "url": [
+          "https://www.kernel.org/"
+        ],
+        "contact": []
+      },
+      "name": "linux-headers-generic",
+      "version": "6.5.9",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e8c99ef349c73b922e1cc4a65beefaf5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:conan/linux-headers-generic@6.5.9",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/linux-headers-generic?version=6.5.9",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/lz4@1.9.4",
+      "supplier": {
+        "name": "lz4",
+        "url": [
+          "https://github.com/lz4/lz4"
+        ],
+        "contact": []
+      },
+      "name": "lz4",
+      "version": "1.9.4",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "652b313a0444c8b1d60d1bf9e95fb0a1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/lz4@1.9.4",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/lz4?version=1.9.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/lzo@2.10",
+      "supplier": {
+        "url": [
+          "http://www.oberhumer.com/opensource/lzo/"
+        ],
+        "contact": []
+      },
+      "name": "lzo",
+      "version": "2.10",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5725914235423c771cb1c6b607109b45"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/lzo@2.10",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/lzo?version=2.10",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/m4@1.4.19",
+      "supplier": {
+        "url": [
+          "https://www.gnu.org/software/m4/"
+        ],
+        "contact": []
+      },
+      "name": "m4",
+      "version": "1.4.19",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b38ced39a01e31fef5435bc634461fd2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:conan/m4@1.4.19",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/m4?version=1.4.19",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/md4c@0.4.8",
+      "supplier": {
+        "name": "mity",
+        "url": [
+          "https://github.com/mity/md4c"
+        ],
+        "contact": []
+      },
+      "name": "md4c",
+      "version": "0.4.8",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9b5da52e0c0b803bb0d1a4b9fdfe10b1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/md4c@0.4.8",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/md4c?version=0.4.8",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/moltenvk@1.1.10",
+      "supplier": {
+        "name": "KhronosGroup",
+        "url": [
+          "https://github.com/KhronosGroup/MoltenVK"
+        ],
+        "contact": []
+      },
+      "name": "moltenvk",
+      "version": "1.1.10",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b2e8b2ba2c42d244b8717bf65ce3b259"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/moltenvk@1.1.10",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/moltenvk?version=1.1.10",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/mpg123@1.31.2",
+      "supplier": {
+        "url": [
+          "http://mpg123.org/"
+        ],
+        "contact": []
+      },
+      "name": "mpg123",
+      "version": "1.31.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ce831c936b2284e2066ab3dc58a2628e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/mpg123@1.31.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/mpg123?version=1.31.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/nspr@4.35",
+      "supplier": {
+        "url": [
+          "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR"
+        ],
+        "contact": []
+      },
+      "name": "nspr",
+      "version": "4.35",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "782175b266f93ade4f45d915a33e03b1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/nspr@4.35",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/nspr?version=4.35",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/nss@3.77",
+      "supplier": {
+        "url": [
+          "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS"
+        ],
+        "contact": []
+      },
+      "name": "nss",
+      "version": "3.77",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cdf9d63206b078e990a4ac13ea77f465"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/nss@3.77",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/nss?version=3.77",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/odbc@2.3.9",
+      "supplier": {
+        "url": [
+          "http://www.unixodbc.org/"
+        ],
+        "contact": []
+      },
+      "name": "odbc",
+      "version": "2.3.9",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "82ab69ee918cd5eda1d3e8a4418dd664"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ],
+      "purl": "pkg:conan/odbc@2.3.9",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/odbc?version=2.3.9",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/ogg@1.3.5",
+      "supplier": {
+        "name": "xiph",
+        "url": [
+          "https://github.com/xiph/ogg"
+        ],
+        "contact": []
+      },
+      "name": "ogg",
+      "version": "1.3.5",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "062626875f5c8c59f069f76f148098ef"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/ogg@1.3.5",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/ogg?version=1.3.5",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/openal@1.22.1",
+      "name": "openal",
+      "version": "1.22.1",
+      "licenses": [],
+      "purl": "pkg:conan/openal@1.22.1",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/opengl@system",
+      "supplier": {
+        "url": [
+          "https://www.opengl.org/"
+        ],
+        "contact": []
+      },
+      "name": "opengl",
+      "version": "system",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4df6fecde4084386beded3ed0e56e4ea"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/opengl@system",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/opengl?version=system",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/openssl@3.3.1",
+      "supplier": {
+        "name": "openssl",
+        "url": [
+          "https://github.com/openssl/openssl"
+        ],
+        "contact": []
+      },
+      "name": "openssl",
+      "version": "3.3.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "279e86dc2a7dded8c1fe8512e775bdb1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/openssl@3.3.1",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/openssl?version=3.3.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/opus@1.4",
+      "supplier": {
+        "url": [
+          "https://opus-codec.org/"
+        ],
+        "contact": []
+      },
+      "name": "opus",
+      "version": "1.4",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "54631f551fc450783fb2df8cd63f80a2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/opus@1.4",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/opus?version=1.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/pango@1.49.3",
+      "supplier": {
+        "url": [
+          "https://www.pango.org/"
+        ],
+        "contact": []
+      },
+      "name": "pango",
+      "version": "1.49.3",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "22ee4a1e6edbf6c0a00d4a4a01f965bf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:conan/pango@1.49.3",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/pango?version=1.49.3",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/pcre2@10.42",
+      "supplier": {
+        "url": [
+          "https://www.pcre.org/"
+        ],
+        "contact": []
+      },
+      "name": "pcre2",
+      "version": "10.42",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "576680686b88a4dadf6d382d6d6351d9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/pcre2@10.42",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/pcre2?version=10.42",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/pixman@0.43.4",
+      "supplier": {
+        "url": [
+          "https://gitlab.freedesktop.org/pixman/pixman"
+        ],
+        "contact": []
+      },
+      "name": "pixman",
+      "version": "0.43.4",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0dcdf859941e32fcc7bfb73ea1946a7f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        },
+        {
+          "license": {
+            "id": "MPL-1.1"
+          }
+        }
+      ],
+      "purl": "pkg:conan/pixman@0.43.4",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/pixman?version=0.43.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/pulseaudio@14.2",
+      "supplier": {
+        "url": [
+          "http://pulseaudio.org/"
+        ],
+        "contact": []
+      },
+      "name": "pulseaudio",
+      "version": "14.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "30afeff38a7770cb9cda17a66da49a19"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ],
+      "purl": "pkg:conan/pulseaudio@14.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/pulseaudio?version=14.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/qt@6.3.1",
+      "supplier": {
+        "url": [
+          "https://www.qt.io/"
+        ],
+        "contact": []
+      },
+      "name": "qt",
+      "version": "6.3.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "484a209640fa3830ac136a1bc621fea4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/qt@6.3.1",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/qt?version=6.3.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/sqlite3@3.41.2",
+      "supplier": {
+        "url": [
+          "https://www.sqlite.org/"
+        ],
+        "contact": []
+      },
+      "name": "sqlite3",
+      "version": "3.41.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f70ce412392f38867830ada537580b52"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Unlicense"
+          }
+        }
+      ],
+      "purl": "pkg:conan/sqlite3@3.41.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/sqlite3?version=3.41.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/theora@1.1.1",
+      "supplier": {
+        "name": "xiph",
+        "url": [
+          "https://github.com/xiph/theora"
+        ],
+        "contact": []
+      },
+      "name": "theora",
+      "version": "1.1.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "af9a1faf503aaf2bfce1674672741520"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/theora@1.1.1",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/theora?version=1.1.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/tinyalsa@2.0.0",
+      "supplier": {
+        "name": "tinyalsa",
+        "url": [
+          "https://github.com/tinyalsa/tinyalsa"
+        ],
+        "contact": []
+      },
+      "name": "tinyalsa",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9cb14db0bcb864fedb466db6ae816db9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/tinyalsa@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/tinyalsa?version=2.0.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/util-linux-libuuid@2.39.2",
+      "supplier": {
+        "name": "util-linux",
+        "url": [
+          "https://github.com/util-linux/util-linux.git"
+        ],
+        "contact": []
+      },
+      "name": "util-linux-libuuid",
+      "version": "2.39.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "339f80aea7e5cf507b5b9839a128909f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/util-linux-libuuid@2.39.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/util-linux-libuuid?version=2.39.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/vorbis@1.3.7",
+      "supplier": {
+        "url": [
+          "https://xiph.org/vorbis/"
+        ],
+        "contact": []
+      },
+      "name": "vorbis",
+      "version": "1.3.7",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "37e58f52e59a6232199b34ef402714a6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/vorbis@1.3.7",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/vorbis?version=1.3.7",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/vulkan-loader@1.3.221.0",
+      "name": "vulkan-loader",
+      "version": "1.3.221.0",
+      "licenses": [],
+      "purl": "pkg:conan/vulkan-loader@1.3.221.0",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/wayland-protocols@1.25",
+      "supplier": {
+        "url": [
+          "https://gitlab.freedesktop.org/wayland/wayland-protocols"
+        ],
+        "contact": []
+      },
+      "name": "wayland-protocols",
+      "version": "1.25",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fbc4bff3fe07bfc671d308eae962b78b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/wayland-protocols@1.25",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/wayland-protocols?version=1.25",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/wayland@1.22.0",
+      "supplier": {
+        "url": [
+          "https://wayland.freedesktop.org/"
+        ],
+        "contact": []
+      },
+      "name": "wayland",
+      "version": "1.22.0",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "284b56bdbe57868770f46100784e3b4d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/wayland@1.22.0",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/wayland?version=1.22.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/wglext@cci.20200813",
+      "supplier": {
+        "url": [
+          "https://www.khronos.org/registry/OpenGL/index_gl.php"
+        ],
+        "contact": []
+      },
+      "name": "wglext",
+      "version": "cci.20200813",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "efa1196e06147ab8e8762497943b610a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/wglext@cci.20200813",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/wglext?version=cci.20200813",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/xkbcommon@1.4.1",
+      "supplier": {
+        "name": "xkbcommon",
+        "url": [
+          "https://github.com/xkbcommon/libxkbcommon"
+        ],
+        "contact": []
+      },
+      "name": "xkbcommon",
+      "version": "1.4.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2bfdfd2d0177ae112d7e4a090b0ce8d0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/xkbcommon@1.4.1",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/xkbcommon?version=1.4.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/xkeyboard-config@system",
+      "supplier": {
+        "url": [
+          "https://www.freedesktop.org/wiki/Software/XKeyboardConfig/"
+        ],
+        "contact": []
+      },
+      "name": "xkeyboard-config",
+      "version": "system",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "57dd5c08e72ab06bc2ee0e756c0a2c41"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/xkeyboard-config@system",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/xkeyboard-config?version=system",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/xorg-macros@1.19.3",
+      "supplier": {
+        "url": [
+          "https://gitlab.freedesktop.org/xorg/util/macros"
+        ],
+        "contact": []
+      },
+      "name": "xorg-macros",
+      "version": "1.19.3",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c3465b331ce1d044ee771dc5e4529b79"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/xorg-macros@1.19.3",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/xorg-macros?version=1.19.3",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/xorg-proto@2022.2",
+      "supplier": {
+        "url": [
+          "https://gitlab.freedesktop.org/xorg/proto/xorgproto"
+        ],
+        "contact": []
+      },
+      "name": "xorg-proto",
+      "version": "2022.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0088fff0ee788a2fa8f22a9704ea941a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "X11"
+          }
+        }
+      ],
+      "purl": "pkg:conan/xorg-proto@2022.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/xorg-proto?version=2022.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/xorg@system",
+      "supplier": {
+        "url": [
+          "https://www.x.org/wiki/"
+        ],
+        "contact": []
+      },
+      "name": "xorg",
+      "version": "system",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f626cbdd0ba57d9c53bce2d8b9362fad"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/xorg@system",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/xorg?version=system",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/xz_utils@5.4.5",
+      "name": "xz_utils",
+      "version": "5.4.5",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b885d1d79c9d30cff3803f7f551dbe66"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "Unlicense"
+          }
+        }
+      ],
+      "purl": "pkg:conan/xz_utils@5.4.5",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/xz_utils?version=5.4.5",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/zlib@1.3.1",
+      "supplier": {
+        "url": [
+          "https://zlib.net/"
+        ],
+        "contact": []
+      },
+      "name": "zlib",
+      "version": "1.3.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f52e03ae3d251dec704634230cd806a2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "purl": "pkg:conan/zlib@1.3.1",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/zlib?version=1.3.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/zstd@1.5.5",
+      "supplier": {
+        "name": "facebook",
+        "url": [
+          "https://github.com/facebook/zstd"
+        ],
+        "contact": []
+      },
+      "name": "zstd",
+      "version": "1.5.5",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1f239731dc45147c7fc2f54bfbde73df"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/zstd@1.5.5",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/zstd?version=1.5.5",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:conan/autoconf@2.71",
+      "dependsOn": [
+        "pkg:conan/m4@1.4.19"
+      ]
+    },
+    {
+      "ref": "pkg:conan/automake@1.16.5",
+      "dependsOn": [
+        "pkg:conan/autoconf@2.71"
+      ]
+    },
+    {
+      "ref": "pkg:conan/brotli@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/bzip2@1.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/cairo@1.18.0",
+      "dependsOn": [
+        "pkg:conan/egl@system",
+        "pkg:conan/expat@2.6.2",
+        "pkg:conan/fontconfig@2.15.0",
+        "pkg:conan/freetype@2.13.2",
+        "pkg:conan/glext@cci.20210420",
+        "pkg:conan/glib@2.78.3",
+        "pkg:conan/khrplatform@cci.20200529",
+        "pkg:conan/libpng@1.6.43",
+        "pkg:conan/lzo@2.10",
+        "pkg:conan/opengl@system",
+        "pkg:conan/pixman@0.43.4",
+        "pkg:conan/wglext@cci.20200813",
+        "pkg:conan/xorg@system",
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/cereal@1.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/dbus@1.15.8",
+      "dependsOn": [
+        "pkg:conan/expat@2.6.2",
+        "pkg:conan/libselinux@3.6",
+        "pkg:conan/libsystemd@253.6",
+        "pkg:conan/xorg@system"
+      ]
+    },
+    {
+      "ref": "pkg:conan/double-conversion@3.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/egl@system",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/expat@2.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/fftw@3.3.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/flac@1.4.2",
+      "dependsOn": [
+        "pkg:conan/ogg@1.3.5"
+      ]
+    },
+    {
+      "ref": "pkg:conan/fontconfig@2.15.0",
+      "dependsOn": [
+        "pkg:conan/expat@2.6.2",
+        "pkg:conan/freetype@2.13.2",
+        "pkg:conan/util-linux-libuuid@2.39.2"
+      ]
+    },
+    {
+      "ref": "pkg:conan/freetype@2.13.2",
+      "dependsOn": [
+        "pkg:conan/brotli@1.1.0",
+        "pkg:conan/bzip2@1.0.8",
+        "pkg:conan/libpng@1.6.43",
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/fribidi@1.0.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/glext@cci.20210420",
+      "dependsOn": [
+        "pkg:conan/khrplatform@cci.20200529",
+        "pkg:conan/opengl@system"
+      ]
+    },
+    {
+      "ref": "pkg:conan/glib@2.78.3",
+      "dependsOn": [
+        "pkg:conan/libelf@0.8.13",
+        "pkg:conan/libffi@3.4.4",
+        "pkg:conan/libgettext@0.22",
+        "pkg:conan/libiconv@1.17",
+        "pkg:conan/libmount@2.39.2",
+        "pkg:conan/libselinux@3.6",
+        "pkg:conan/pcre2@10.42",
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/graphene@1.10.8",
+      "dependsOn": [
+        "pkg:conan/glib@2.78.3"
+      ]
+    },
+    {
+      "ref": "pkg:conan/gst-plugins-base@1.19.2",
+      "dependsOn": [
+        "pkg:conan/egl@system",
+        "pkg:conan/glext@cci.20210420",
+        "pkg:conan/glib@2.78.3",
+        "pkg:conan/graphene@1.10.8",
+        "pkg:conan/gstreamer@1.19.2",
+        "pkg:conan/libalsa@1.2.10",
+        "pkg:conan/libjpeg-turbo@2.1.3",
+        "pkg:conan/libjpeg@9d",
+        "pkg:conan/libpng@1.6.43",
+        "pkg:conan/ogg@1.3.5",
+        "pkg:conan/opengl@system",
+        "pkg:conan/opus@1.4",
+        "pkg:conan/pango@1.49.3",
+        "pkg:conan/theora@1.1.1",
+        "pkg:conan/vorbis@1.3.7",
+        "pkg:conan/wayland-protocols@1.25",
+        "pkg:conan/wayland@1.22.0",
+        "pkg:conan/wglext@cci.20200813",
+        "pkg:conan/xorg@system",
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/gstreamer@1.19.2",
+      "dependsOn": [
+        "pkg:conan/glib@2.78.3"
+      ]
+    },
+    {
+      "ref": "pkg:conan/harfbuzz@8.3.0",
+      "dependsOn": [
+        "pkg:conan/freetype@2.13.2",
+        "pkg:conan/glib@2.78.3",
+        "pkg:conan/icu@74.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/icu@74.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/khrplatform@cci.20200529",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/krb5@1.18.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libalsa@1.2.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libcap@2.69",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libdrm@2.4.109",
+      "dependsOn": [
+        "pkg:conan/libpciaccess@0.17",
+        "pkg:conan/linux-headers-generic@6.5.9"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libelf@0.8.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libffi@3.4.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libgettext@0.22",
+      "dependsOn": [
+        "pkg:conan/libiconv@1.17"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libiconv@1.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libjpeg-turbo@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libjpeg@9d",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libmount@2.39.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libmp3lame@3.100",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libmysqlclient@8.0.29",
+      "dependsOn": [
+        "pkg:conan/libunwind@1.6.2",
+        "pkg:conan/lz4@1.9.4",
+        "pkg:conan/openssl@3.3.1",
+        "pkg:conan/zlib@1.3.1",
+        "pkg:conan/zstd@1.5.5"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libpciaccess@0.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libpng@1.6.43",
+      "dependsOn": [
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libpq@14.2",
+      "dependsOn": [
+        "pkg:conan/openssl@3.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libselinux@3.6",
+      "dependsOn": [
+        "pkg:conan/pcre2@10.42"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libsndfile@1.2.2",
+      "dependsOn": [
+        "pkg:conan/flac@1.4.2",
+        "pkg:conan/libalsa@1.2.10",
+        "pkg:conan/libmp3lame@3.100",
+        "pkg:conan/mpg123@1.31.2",
+        "pkg:conan/ogg@1.3.5",
+        "pkg:conan/opus@1.4",
+        "pkg:conan/vorbis@1.3.7"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libsystemd@253.6",
+      "dependsOn": [
+        "pkg:conan/libcap@2.69",
+        "pkg:conan/libmount@2.39.2",
+        "pkg:conan/libselinux@3.6",
+        "pkg:conan/libxcrypt@4.4.36",
+        "pkg:conan/lz4@1.9.4",
+        "pkg:conan/xz_utils@5.4.5",
+        "pkg:conan/zstd@1.5.5"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libtool@2.4.7",
+      "dependsOn": [
+        "pkg:conan/automake@1.16.5"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libunwind@1.6.2",
+      "dependsOn": [
+        "pkg:conan/xz_utils@5.4.5",
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libxcrypt@4.4.36",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libxft@2.3.8",
+      "dependsOn": [
+        "pkg:conan/fontconfig@2.15.0",
+        "pkg:conan/freetype@2.13.2",
+        "pkg:conan/xorg@system"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libxml2@2.12.7",
+      "dependsOn": [
+        "pkg:conan/icu@74.1",
+        "pkg:conan/libiconv@1.17",
+        "pkg:conan/xz_utils@5.4.5",
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libxshmfence@1.3",
+      "dependsOn": [
+        "pkg:conan/xorg-proto@2022.2"
+      ]
+    },
+    {
+      "ref": "pkg:conan/linux-headers-generic@6.5.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/lz4@1.9.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/lzo@2.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/m4@1.4.19",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/md4c@0.4.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/moltenvk@1.1.10",
+      "dependsOn": [
+        "pkg:conan/cereal@1.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:conan/mpg123@1.31.2",
+      "dependsOn": [
+        "pkg:conan/libalsa@1.2.10",
+        "pkg:conan/tinyalsa@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:conan/nspr@4.35",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/nss@3.77",
+      "dependsOn": [
+        "pkg:conan/nspr@4.35",
+        "pkg:conan/sqlite3@3.41.2",
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/odbc@2.3.9",
+      "dependsOn": [
+        "pkg:conan/libiconv@1.17",
+        "pkg:conan/libtool@2.4.7"
+      ]
+    },
+    {
+      "ref": "pkg:conan/ogg@1.3.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/openal@1.22.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/opengl@system",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/openssl@3.3.1",
+      "dependsOn": [
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/opus@1.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/pango@1.49.3",
+      "dependsOn": [
+        "pkg:conan/cairo@1.18.0",
+        "pkg:conan/fontconfig@2.15.0",
+        "pkg:conan/freetype@2.13.2",
+        "pkg:conan/fribidi@1.0.13",
+        "pkg:conan/glib@2.78.3",
+        "pkg:conan/harfbuzz@8.3.0",
+        "pkg:conan/libxft@2.3.8",
+        "pkg:conan/xorg@system"
+      ]
+    },
+    {
+      "ref": "pkg:conan/pcre2@10.42",
+      "dependsOn": [
+        "pkg:conan/bzip2@1.0.8",
+        "pkg:conan/zlib@1.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:conan/pixman@0.43.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/pulseaudio@14.2",
+      "dependsOn": [
+        "pkg:conan/dbus@1.15.8",
+        "pkg:conan/fftw@3.3.10",
+        "pkg:conan/glib@2.78.3",
+        "pkg:conan/libalsa@1.2.10",
+        "pkg:conan/libcap@2.69",
+        "pkg:conan/libiconv@1.17",
+        "pkg:conan/libsndfile@1.2.2",
+        "pkg:conan/libtool@2.4.7",
+        "pkg:conan/openssl@3.3.1",
+        "pkg:conan/xorg@system"
+      ]
+    },
+    {
+      "ref": "pkg:conan/qt@6.3.1",
+      "dependsOn": [
+        "pkg:conan/brotli@1.1.0",
+        "pkg:conan/dbus@1.15.8",
+        "pkg:conan/double-conversion@3.2.0",
+        "pkg:conan/expat@2.6.2",
+        "pkg:conan/fontconfig@2.15.0",
+        "pkg:conan/freetype@2.13.2",
+        "pkg:conan/glib@2.78.3",
+        "pkg:conan/gst-plugins-base@1.19.2",
+        "pkg:conan/harfbuzz@8.3.0",
+        "pkg:conan/icu@74.1",
+        "pkg:conan/krb5@1.18.3",
+        "pkg:conan/libalsa@1.2.10",
+        "pkg:conan/libdrm@2.4.109",
+        "pkg:conan/libjpeg-turbo@2.1.3",
+        "pkg:conan/libjpeg@9d",
+        "pkg:conan/libmysqlclient@8.0.29",
+        "pkg:conan/libpng@1.6.43",
+        "pkg:conan/libpq@14.2",
+        "pkg:conan/libxshmfence@1.3",
+        "pkg:conan/md4c@0.4.8",
+        "pkg:conan/moltenvk@1.1.10",
+        "pkg:conan/nss@3.77",
+        "pkg:conan/odbc@2.3.9",
+        "pkg:conan/openal@1.22.1",
+        "pkg:conan/opengl@system",
+        "pkg:conan/openssl@3.3.1",
+        "pkg:conan/opus@1.4",
+        "pkg:conan/pcre2@10.42",
+        "pkg:conan/pulseaudio@14.2",
+        "pkg:conan/sqlite3@3.41.2",
+        "pkg:conan/vulkan-loader@1.3.221.0",
+        "pkg:conan/wayland@1.22.0",
+        "pkg:conan/xkbcommon@1.4.1",
+        "pkg:conan/xorg-proto@2022.2",
+        "pkg:conan/xorg@system",
+        "pkg:conan/zlib@1.3.1",
+        "pkg:conan/zstd@1.5.5"
+      ]
+    },
+    {
+      "ref": "pkg:conan/sqlite3@3.41.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/theora@1.1.1",
+      "dependsOn": [
+        "pkg:conan/ogg@1.3.5"
+      ]
+    },
+    {
+      "ref": "pkg:conan/tinyalsa@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/util-linux-libuuid@2.39.2",
+      "dependsOn": [
+        "pkg:conan/libgettext@0.22"
+      ]
+    },
+    {
+      "ref": "pkg:conan/vorbis@1.3.7",
+      "dependsOn": [
+        "pkg:conan/ogg@1.3.5"
+      ]
+    },
+    {
+      "ref": "pkg:conan/vulkan-loader@1.3.221.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/wayland-protocols@1.25",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/wayland@1.22.0",
+      "dependsOn": [
+        "pkg:conan/expat@2.6.2",
+        "pkg:conan/libffi@3.4.4",
+        "pkg:conan/libxml2@2.12.7"
+      ]
+    },
+    {
+      "ref": "pkg:conan/wglext@cci.20200813",
+      "dependsOn": [
+        "pkg:conan/opengl@system"
+      ]
+    },
+    {
+      "ref": "pkg:conan/xkbcommon@1.4.1",
+      "dependsOn": [
+        "pkg:conan/libxml2@2.12.7",
+        "pkg:conan/wayland@1.22.0",
+        "pkg:conan/xkeyboard-config@system",
+        "pkg:conan/xorg@system"
+      ]
+    },
+    {
+      "ref": "pkg:conan/xkeyboard-config@system",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/xorg-macros@1.19.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/xorg-proto@2022.2",
+      "dependsOn": [
+        "pkg:conan/xorg-macros@1.19.3"
+      ]
+    },
+    {
+      "ref": "pkg:conan/xorg@system",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/xz_utils@5.4.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/zlib@1.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/zstd@1.5.5",
+      "dependsOn": []
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "complete",
+      "dependencies": [
+        "pkg:conan/autoconf@2.71",
+        "pkg:conan/automake@1.16.5",
+        "pkg:conan/brotli@1.1.0",
+        "pkg:conan/bzip2@1.0.8",
+        "pkg:conan/cairo@1.18.0",
+        "pkg:conan/cereal@1.3.2",
+        "pkg:conan/dbus@1.15.8",
+        "pkg:conan/double-conversion@3.2.0",
+        "pkg:conan/egl@system",
+        "pkg:conan/expat@2.6.2",
+        "pkg:conan/fftw@3.3.10",
+        "pkg:conan/flac@1.4.2",
+        "pkg:conan/fontconfig@2.15.0",
+        "pkg:conan/freetype@2.13.2",
+        "pkg:conan/fribidi@1.0.13",
+        "pkg:conan/glext@cci.20210420",
+        "pkg:conan/glib@2.78.3",
+        "pkg:conan/graphene@1.10.8",
+        "pkg:conan/gst-plugins-base@1.19.2",
+        "pkg:conan/gstreamer@1.19.2",
+        "pkg:conan/harfbuzz@8.3.0",
+        "pkg:conan/icu@74.1",
+        "pkg:conan/khrplatform@cci.20200529",
+        "pkg:conan/libalsa@1.2.10",
+        "pkg:conan/libcap@2.69",
+        "pkg:conan/libdrm@2.4.109",
+        "pkg:conan/libelf@0.8.13",
+        "pkg:conan/libffi@3.4.4",
+        "pkg:conan/libgettext@0.22",
+        "pkg:conan/libiconv@1.17",
+        "pkg:conan/libjpeg-turbo@2.1.3",
+        "pkg:conan/libjpeg@9d",
+        "pkg:conan/libmount@2.39.2",
+        "pkg:conan/libmp3lame@3.100",
+        "pkg:conan/libmysqlclient@8.0.29",
+        "pkg:conan/libpciaccess@0.17",
+        "pkg:conan/libpng@1.6.43",
+        "pkg:conan/libpq@14.2",
+        "pkg:conan/libselinux@3.6",
+        "pkg:conan/libsndfile@1.2.2",
+        "pkg:conan/libsystemd@253.6",
+        "pkg:conan/libtool@2.4.7",
+        "pkg:conan/libunwind@1.6.2",
+        "pkg:conan/libxcrypt@4.4.36",
+        "pkg:conan/libxft@2.3.8",
+        "pkg:conan/libxml2@2.12.7",
+        "pkg:conan/libxshmfence@1.3",
+        "pkg:conan/linux-headers-generic@6.5.9",
+        "pkg:conan/lz4@1.9.4",
+        "pkg:conan/lzo@2.10",
+        "pkg:conan/m4@1.4.19",
+        "pkg:conan/md4c@0.4.8",
+        "pkg:conan/moltenvk@1.1.10",
+        "pkg:conan/mpg123@1.31.2",
+        "pkg:conan/nspr@4.35",
+        "pkg:conan/nss@3.77",
+        "pkg:conan/odbc@2.3.9",
+        "pkg:conan/ogg@1.3.5",
+        "pkg:conan/opengl@system",
+        "pkg:conan/openssl@3.3.1",
+        "pkg:conan/opus@1.4",
+        "pkg:conan/pango@1.49.3",
+        "pkg:conan/pcre2@10.42",
+        "pkg:conan/pixman@0.43.4",
+        "pkg:conan/pulseaudio@14.2",
+        "pkg:conan/qt@6.3.1",
+        "pkg:conan/sqlite3@3.41.2",
+        "pkg:conan/theora@1.1.1",
+        "pkg:conan/tinyalsa@2.0.0",
+        "pkg:conan/util-linux-libuuid@2.39.2",
+        "pkg:conan/vorbis@1.3.7",
+        "pkg:conan/wayland-protocols@1.25",
+        "pkg:conan/wayland@1.22.0",
+        "pkg:conan/wglext@cci.20200813",
+        "pkg:conan/xkbcommon@1.4.1",
+        "pkg:conan/xkeyboard-config@system",
+        "pkg:conan/xorg-macros@1.19.3",
+        "pkg:conan/xorg-proto@2022.2",
+        "pkg:conan/xorg@system",
+        "pkg:conan/xz_utils@5.4.5",
+        "pkg:conan/zlib@1.3.1",
+        "pkg:conan/zstd@1.5.5"
+      ]
+    }
+  ]
+}

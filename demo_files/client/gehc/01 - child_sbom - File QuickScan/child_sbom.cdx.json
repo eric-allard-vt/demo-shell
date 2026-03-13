@@ -1,0 +1,2672 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:d4aa2525-a409-4c3e-9578-f1e3a549828d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-08-25T15:14:47Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "SOOS SCA",
+          "version": "1.0.0.0",
+          "externalReferences": [
+            {
+              "url": "https://soos.io/",
+              "type": "website"
+            },
+            {
+              "url": "https://soos.io/terms-of-service",
+              "type": "license",
+              "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "email": "support@soos.io"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "author": "  (support@soos.io)",
+      "publisher": "SOOS",
+      "name": "child_sbom",
+      "version": "4.5.6",
+      "description": "Acme core Java library.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8246d68deb2ca9c71d7ffc777d0ae9bc0e9c4dcaf93e474c4aaa9900b994d3eb"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "CC0-1.0"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.6.1",
+      "supplier": {
+        "name": "apache",
+        "url": [
+          "https://logging.apache.org/log4j/3.x/"
+        ],
+        "contact": [
+          {
+            "name": "Gary Gregory",
+            "email": "ggregory@apache.org"
+          },
+          {
+            "name": "Nick Williams",
+            "email": "nickwilliams@apache.org"
+          },
+          {
+            "name": "Ralph Goers",
+            "email": "rgoers@apache.org"
+          },
+          {
+            "name": "Remko Popma",
+            "email": "rpopma@apache.org"
+          },
+          {
+            "name": "Scott Deboy",
+            "email": "sdeboy@apache.org"
+          }
+        ]
+      },
+      "name": "org.apache.logging.log4j/log4j-core",
+      "version": "2.6.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2b557bf1023c3a3a0f7f200fafcd7641b89cbb83"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.6.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core/2.6.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3",
+      "supplier": {
+        "name": "ben-manes",
+        "url": [
+          "https://github.com/ben-manes/caffeine"
+        ],
+        "contact": [
+          {
+            "name": "Ben Manes",
+            "email": "ben.manes@gmail.com"
+          }
+        ]
+      },
+      "name": "com.github.ben-manes.caffeine/caffeine",
+      "version": "2.9.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b162491f768824d21487551873f9b3b374a7fe19"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/com.github.ben-manes.caffeine/caffeine/2.9.3",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.10.0",
+      "supplier": {
+        "name": "google",
+        "url": [
+          "https://errorprone.info/"
+        ],
+        "contact": [
+          {
+            "name": "Eddie Aftandilian"
+          }
+        ]
+      },
+      "name": "com.google.errorprone/error_prone_annotations",
+      "version": "2.10.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9bc20b94d3ac42489cf6ce1e42509c86f6f861a1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.10.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/com.google.errorprone/error_prone_annotations/2.10.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut.cache/micronaut-cache-core@3.5.0",
+      "supplier": {
+        "name": "io.micronaut.cache",
+        "url": [
+          "https://micronaut.io/"
+        ],
+        "contact": [
+          {
+            "name": "Alvaro Sanchez-Mariscal"
+          }
+        ]
+      },
+      "name": "io.micronaut.cache/micronaut-cache-core",
+      "version": "3.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7495794ce7142740612cefb331f2c4eddcb00e95"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micronaut.cache/micronaut-cache-core@3.5.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/io.micronaut.cache/micronaut-cache-core/3.5.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut.spring/micronaut-spring-context@4.5.1",
+      "supplier": {
+        "name": "io.micronaut.spring",
+        "url": [
+          "https://micronaut.io/"
+        ],
+        "contact": [
+          {
+            "name": "Graeme Rocher"
+          }
+        ]
+      },
+      "name": "io.micronaut.spring/micronaut-spring-context",
+      "version": "4.5.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6d17299e70eef7036b0a69821200e5d2c0b20073"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micronaut.spring/micronaut-spring-context@4.5.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/io.micronaut.spring/micronaut-spring-context/4.5.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut.spring/micronaut-spring@4.5.1",
+      "supplier": {
+        "name": "io.micronaut.spring",
+        "url": [
+          "https://micronaut.io/"
+        ],
+        "contact": [
+          {
+            "name": "Graeme Rocher"
+          }
+        ]
+      },
+      "name": "io.micronaut.spring/micronaut-spring",
+      "version": "4.5.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "659bd50d33d2cee9ae013bfa49c9734bfb1079c0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micronaut.spring/micronaut-spring@4.5.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/io.micronaut.spring/micronaut-spring/4.5.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut/micronaut-aop@3.5.4",
+      "supplier": {
+        "name": "io.micronaut",
+        "url": [
+          "https://micronaut.io/"
+        ],
+        "contact": [
+          {
+            "name": "Graeme Rocher"
+          }
+        ]
+      },
+      "name": "io.micronaut/micronaut-aop",
+      "version": "3.5.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "36c998546a7f5df9780183d75d9e0b6a5606bf12"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micronaut/micronaut-aop@3.5.4",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/io.micronaut/micronaut-aop/3.5.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut/micronaut-context@3.10.4",
+      "name": "io.micronaut/micronaut-context",
+      "version": "3.10.4",
+      "licenses": [],
+      "purl": "pkg:maven/io.micronaut/micronaut-context@3.10.4",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut/micronaut-core-reactive@3.10.4",
+      "name": "io.micronaut/micronaut-core-reactive",
+      "version": "3.10.4",
+      "licenses": [],
+      "purl": "pkg:maven/io.micronaut/micronaut-core-reactive@3.10.4",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut/micronaut-core@3.10.4",
+      "name": "io.micronaut/micronaut-core",
+      "version": "3.10.4",
+      "licenses": [],
+      "purl": "pkg:maven/io.micronaut/micronaut-core@3.10.4",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut/micronaut-http@3.5.4",
+      "supplier": {
+        "name": "io.micronaut",
+        "url": [
+          "https://micronaut.io/"
+        ],
+        "contact": [
+          {
+            "name": "Graeme Rocher"
+          }
+        ]
+      },
+      "name": "io.micronaut/micronaut-http",
+      "version": "3.5.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7c2437e6708fd84ecca8d6c752ed48f58227edb3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micronaut/micronaut-http@3.5.4",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/io.micronaut/micronaut-http/3.5.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+      "supplier": {
+        "name": "io.micronaut",
+        "url": [
+          "https://micronaut.io/"
+        ],
+        "contact": [
+          {
+            "name": "Graeme Rocher"
+          }
+        ]
+      },
+      "name": "io.micronaut/micronaut-inject",
+      "version": "3.10.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "60e638df148d1240bda7fb603ad7cf2f420f9f26"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/io.micronaut/micronaut-inject/3.10.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut/micronaut-jackson-databind@3.10.4",
+      "name": "io.micronaut/micronaut-jackson-databind",
+      "version": "3.10.4",
+      "licenses": [],
+      "purl": "pkg:maven/io.micronaut/micronaut-jackson-databind@3.10.4",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micronaut/micronaut-runtime@3.10.4",
+      "supplier": {
+        "name": "io.micronaut",
+        "url": [
+          "https://micronaut.io/"
+        ],
+        "contact": [
+          {
+            "name": "Graeme Rocher"
+          }
+        ]
+      },
+      "name": "io.micronaut/micronaut-runtime",
+      "version": "3.10.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3af181c7976c6d62a9433ec56862fffc6ef7ac93"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micronaut/micronaut-runtime@3.10.4",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/io.micronaut/micronaut-runtime/3.10.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.projectreactor/reactor-core@3.4.21",
+      "supplier": {
+        "name": "reactor",
+        "url": [
+          "https://github.com/reactor/reactor-core"
+        ],
+        "contact": [
+          {
+            "name": "Oleh Dokuka",
+            "email": "odokuka@vmware.com"
+          },
+          {
+            "name": "Simon Basl\u00E9",
+            "email": "sbasle@vmware.com"
+          }
+        ]
+      },
+      "name": "io.projectreactor/reactor-core",
+      "version": "3.4.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "acdbf7ead79bbc259f990d1935c253b0933a208f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.21",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/io.projectreactor/reactor-core/3.4.21",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+      "supplier": {
+        "name": "jakartaee",
+        "url": [
+          "https://projects.eclipse.org/projects/ee4j.ca"
+        ],
+        "contact": [
+          {
+            "name": "Dmitry Kornilov"
+          },
+          {
+            "name": "Linda De Michiel"
+          }
+        ]
+      },
+      "name": "jakarta.annotation/jakarta.annotation-api",
+      "version": "2.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "48b9bda22b091b1f48b13af03fe36db3be6e1ae3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "ECL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception",
+            "url": "https://www.gnu.org/software/classpath/license.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/jakarta.annotation/jakarta.annotation-api/2.1.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "supplier": {
+        "name": "eclipse-ee4j",
+        "url": [
+          "https://github.com/eclipse-ee4j/injection-api"
+        ],
+        "contact": [
+          {
+            "name": "Antoine Sabot-Durand"
+          },
+          {
+            "name": "Martin Kouba"
+          },
+          {
+            "name": "Matej Novotny"
+          },
+          {
+            "name": "Tomas Remes"
+          }
+        ]
+      },
+      "name": "jakarta.inject/jakarta.inject-api",
+      "version": "2.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4c28afe1991a941d7702fe1362c365f0a8641d1e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "ECL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception",
+            "url": "https://www.gnu.org/software/classpath/license.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/jakarta.inject/jakarta.inject-api/2.0.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+      "supplier": {
+        "name": "javaee",
+        "url": [
+          "http://jcp.org/en/jsr/detail?id=250"
+        ],
+        "contact": [
+          {
+            "name": "Linda De Michiel"
+          }
+        ]
+      },
+      "name": "javax.annotation/javax.annotation-api",
+      "version": "1.3.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "934c04d3cfef185a8008e7bf34331b79730a9d43"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api/1.3.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.inject/javax.inject@1",
+      "supplier": {
+        "name": "javax.inject",
+        "url": [
+          "http://code.google.com/p/atinject/"
+        ],
+        "contact": []
+      },
+      "name": "javax.inject/javax.inject",
+      "version": "1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6975da39a7040257bd51d21a231b76c915872d38"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/javax.inject/javax.inject/1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.persistence/javax.persistence-api@2.2",
+      "supplier": {
+        "name": "javaee",
+        "url": [
+          "https://github.com/javaee/jpa-spec"
+        ],
+        "contact": []
+      },
+      "name": "javax.persistence/javax.persistence-api",
+      "version": "2.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "25665ac8c0b62f50e6488173233239120fc52c96"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ECL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.persistence/javax.persistence-api@2.2",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api/2.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.servlet/javax.servlet-api@4.0.1",
+      "supplier": {
+        "name": "javaee",
+        "url": [
+          "https://javaee.github.io/servlet-spec/"
+        ],
+        "contact": [
+          {
+            "name": "Ed Burns"
+          },
+          {
+            "name": "Shing Wai Chan"
+          }
+        ]
+      },
+      "name": "javax.servlet/javax.servlet-api",
+      "version": "4.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a27082684a2ff0bf397666c3943496c44541d1ca"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "CDDL \u002B GPLv2 with classpath exception"
+        }
+      ],
+      "purl": "pkg:maven/javax.servlet/javax.servlet-api@4.0.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/4.0.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.transaction/jta@1.1",
+      "supplier": {
+        "name": "javax.transaction",
+        "url": [
+          "http://java.sun.com/products/jta"
+        ],
+        "contact": []
+      },
+      "name": "javax.transaction/jta",
+      "version": "1.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2ca09f0b36ca7d71b762e14ea2ff09d5eac57558"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.transaction/jta@1.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/javax.transaction/jta/1.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+      "supplier": {
+        "name": "beanvalidation",
+        "url": [
+          "http://beanvalidation.org/"
+        ],
+        "contact": [
+          {
+            "name": "Emmanuel Bernard",
+            "email": "emmanuel@hibernate.org"
+          },
+          {
+            "name": "Emmanuel Bernard",
+            "email": "emmanuel@hibernate.org"
+          },
+          {
+            "name": "Guillaume Smet",
+            "email": "guillaume.smet@hibernate.org"
+          },
+          {
+            "name": "Gunnar Morling",
+            "email": "gunnar@hibernate.org"
+          },
+          {
+            "name": "Hardy Ferentschik",
+            "email": "hferents@redhat.com"
+          }
+        ]
+      },
+      "name": "javax.validation/validation-api",
+      "version": "2.0.1.Final",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cb855558e6271b1b32e716d24cb85c7f583ce09e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/javax.validation/validation-api/2.0.1.Final",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/jline/jline@2.14.6",
+      "supplier": {
+        "name": "jline",
+        "url": [
+          "http://nexus.sonatype.org/oss-repository-hosting.html"
+        ],
+        "contact": [
+          {
+            "name": "Guillaume Nodet",
+            "email": "gnodet@gmail.com"
+          },
+          {
+            "name": "Hiram Chirino",
+            "email": "hiram@hiramchirino.com"
+          },
+          {
+            "name": "Jason Dillon",
+            "email": "jason@planet57.com"
+          },
+          {
+            "name": "Marc Prud\u0027hommeaux",
+            "email": "mprudhom@gmail.com"
+          },
+          {
+            "name": "Scott Gray",
+            "email": "scottgray1@gmail.com"
+          }
+        ]
+      },
+      "name": "jline/jline",
+      "version": "2.14.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c3aeac59c022bdc497c8c48ed86fa50450e4896a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "url": "http://www.opensource.org/licenses/bsd-license.php"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jline/jline@2.14.6",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/jline/jline/2.14.6",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.ant/ant-launcher@1.10.14",
+      "supplier": {
+        "name": "org.apache.ant",
+        "url": [
+          "https://ant.apache.org/"
+        ],
+        "contact": []
+      },
+      "name": "org.apache.ant/ant-launcher",
+      "version": "1.10.14",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8d2268288496b0541a2640f2ee07fe3de1a02301"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.ant/ant-launcher@1.10.14",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.apache.ant/ant-launcher/1.10.14",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.ant/ant@1.10.14",
+      "supplier": {
+        "name": "org.apache.ant",
+        "url": [
+          "https://ant.apache.org/"
+        ],
+        "contact": []
+      },
+      "name": "org.apache.ant/ant",
+      "version": "1.10.14",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1edce9bbfa60dfd51f010879c78f4421dafae7a7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.ant/ant@1.10.14",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.apache.ant/ant/1.10.14",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.19.0",
+      "supplier": {
+        "name": "typetools",
+        "url": [
+          "https://checkerframework.org/"
+        ],
+        "contact": [
+          {
+            "name": "Michael Ernst",
+            "email": "mernst@cs.washington.edu"
+          },
+          {
+            "name": "Suzanne Millstein",
+            "email": "smillst@cs.washington.edu"
+          }
+        ]
+      },
+      "name": "org.checkerframework/checker-qual",
+      "version": "3.19.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "838b42bb6f7f73315167b359d24649845cef1c48"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.19.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.checkerframework/checker-qual/3.19.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.groovy/groovy-json@3.0.21",
+      "supplier": {
+        "name": "apache",
+        "url": [
+          "https://groovy-lang.org/"
+        ],
+        "contact": [
+          {
+            "name": "Chris Stevenson"
+          },
+          {
+            "name": "Guillaume Laforge"
+          },
+          {
+            "name": "Joe Walnes"
+          },
+          {
+            "name": "bob mcwhirter",
+            "email": "bob@werken.com"
+          },
+          {
+            "name": "James Strachan",
+            "email": "james@coredevelopers.com"
+          }
+        ]
+      },
+      "name": "org.codehaus.groovy/groovy-json",
+      "version": "3.0.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0f8cc919f09f65d7cc6b04127f807aac32800c9f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.groovy/groovy-json@3.0.21",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-json/3.0.21",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.groovy/groovy-templates@3.0.21",
+      "supplier": {
+        "name": "apache",
+        "url": [
+          "https://groovy-lang.org/"
+        ],
+        "contact": [
+          {
+            "name": "Chris Stevenson"
+          },
+          {
+            "name": "Guillaume Laforge"
+          },
+          {
+            "name": "Joe Walnes"
+          },
+          {
+            "name": "bob mcwhirter",
+            "email": "bob@werken.com"
+          },
+          {
+            "name": "James Strachan",
+            "email": "james@coredevelopers.com"
+          }
+        ]
+      },
+      "name": "org.codehaus.groovy/groovy-templates",
+      "version": "3.0.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2f1a78af4c4457c7628ec5c232213c9dfb47ef89"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.groovy/groovy-templates@3.0.21",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-templates/3.0.21",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.groovy/groovy-xml@3.0.21",
+      "supplier": {
+        "name": "apache",
+        "url": [
+          "https://groovy-lang.org/"
+        ],
+        "contact": [
+          {
+            "name": "Chris Stevenson"
+          },
+          {
+            "name": "Guillaume Laforge"
+          },
+          {
+            "name": "Joe Walnes"
+          },
+          {
+            "name": "bob mcwhirter",
+            "email": "bob@werken.com"
+          },
+          {
+            "name": "James Strachan",
+            "email": "james@coredevelopers.com"
+          }
+        ]
+      },
+      "name": "org.codehaus.groovy/groovy-xml",
+      "version": "3.0.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "92331459237ac22fd712b9b7342aa22df55bcb71"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.groovy/groovy-xml@3.0.21",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-xml/3.0.21",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+      "supplier": {
+        "name": "apache",
+        "url": [
+          "https://groovy-lang.org/"
+        ],
+        "contact": [
+          {
+            "name": "Chris Stevenson"
+          },
+          {
+            "name": "Guillaume Laforge"
+          },
+          {
+            "name": "Joe Walnes"
+          },
+          {
+            "name": "bob mcwhirter",
+            "email": "bob@werken.com"
+          },
+          {
+            "name": "James Strachan",
+            "email": "james@coredevelopers.com"
+          }
+        ]
+      },
+      "name": "org.codehaus.groovy/groovy",
+      "version": "3.0.21",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f82650a717344fd094bfb72d6aadf3b8e19b0582"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.codehaus.groovy/groovy/3.0.21",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi@1.18",
+      "supplier": {
+        "name": "fusesource",
+        "url": [
+          "http://fusesource.github.io/jansi"
+        ],
+        "contact": [
+          {
+            "name": "Guillaume Nodet",
+            "email": "gnodet@gmail.com"
+          },
+          {
+            "name": "Hiram Chirino",
+            "email": "hiram@hiramchirino.com"
+          }
+        ]
+      },
+      "name": "org.fusesource.jansi/jansi",
+      "version": "1.18",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.fusesource.jansi/jansi@1.18",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.fusesource.jansi/jansi/1.18",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.grails/grails-bootstrap@6.2.0",
+      "supplier": {
+        "name": "org.grails",
+        "url": [
+          "https://grails.org/"
+        ],
+        "contact": [
+          {
+            "name": "Puneet Behl",
+            "email": "behlp@objectcomputing.com"
+          }
+        ]
+      },
+      "name": "org.grails/grails-bootstrap",
+      "version": "6.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3a75c9f412631790df58235008e4a84e5c702197"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.grails/grails-bootstrap@6.2.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.grails/grails-bootstrap/6.2.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.grails/grails-core@6.2.0",
+      "supplier": {
+        "name": "org.grails",
+        "url": [
+          "https://grails.org/"
+        ],
+        "contact": [
+          {
+            "name": "Puneet Behl",
+            "email": "behlp@objectcomputing.com"
+          }
+        ]
+      },
+      "name": "org.grails/grails-core",
+      "version": "6.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "adf146b76122e2f4538c89464f83f46f57ed2edf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.grails/grails-core@6.2.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.grails/grails-core/6.2.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.grails/grails-databinding@6.2.0",
+      "supplier": {
+        "name": "org.grails",
+        "url": [
+          "https://grails.org/"
+        ],
+        "contact": [
+          {
+            "name": "Puneet Behl",
+            "email": "behlp@objectcomputing.com"
+          }
+        ]
+      },
+      "name": "org.grails/grails-databinding",
+      "version": "6.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0982c0404f7053ba0badeed9f3e97f3908ba65db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.grails/grails-databinding@6.2.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.grails/grails-databinding/6.2.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.grails/grails-datastore-core@8.1.2",
+      "supplier": {
+        "name": "org.grails",
+        "url": [
+          "https://gorm.grails.org/"
+        ],
+        "contact": [
+          {
+            "name": "Burt Beckwith"
+          },
+          {
+            "name": "Graeme Rocher"
+          },
+          {
+            "name": "James Kleeh"
+          },
+          {
+            "name": "Jeff Brown"
+          },
+          {
+            "name": "Puneet Behl"
+          }
+        ]
+      },
+      "name": "org.grails/grails-datastore-core",
+      "version": "8.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4d425c56ec927b6f6ccb0b5ac3ae788f54f87014"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.grails/grails-datastore-core@8.1.2",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.grails/grails-datastore-core/8.1.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.grails/grails-encoder@6.2.0",
+      "supplier": {
+        "name": "org.grails",
+        "url": [
+          "https://grails.org/"
+        ],
+        "contact": [
+          {
+            "name": "Puneet Behl",
+            "email": "behlp@objectcomputing.com"
+          }
+        ]
+      },
+      "name": "org.grails/grails-encoder",
+      "version": "6.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c7a44b84497d09f49625e2b902329d9154f54293"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.grails/grails-encoder@6.2.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.grails/grails-encoder/6.2.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.grails/grails-gsp@6.2.1",
+      "supplier": {
+        "name": "grails",
+        "url": [
+          "https://github.com/grails/grails-gsp"
+        ],
+        "contact": [
+          {
+            "name": "Graeme Rocher"
+          },
+          {
+            "name": "Puneet Behl"
+          }
+        ]
+      },
+      "name": "org.grails/grails-gsp",
+      "version": "6.2.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5500b9168497c8941dd75c71c063b246c5145593"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.grails/grails-gsp@6.2.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.grails/grails-gsp/6.2.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.grails/grails-taglib@6.2.1",
+      "name": "org.grails/grails-taglib",
+      "version": "6.2.1",
+      "licenses": [],
+      "purl": "pkg:maven/org.grails/grails-taglib@6.2.1",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.grails/grails-web-common@6.2.0",
+      "supplier": {
+        "name": "org.grails",
+        "url": [
+          "https://grails.org/"
+        ],
+        "contact": [
+          {
+            "name": "Puneet Behl",
+            "email": "behlp@objectcomputing.com"
+          }
+        ]
+      },
+      "name": "org.grails/grails-web-common",
+      "version": "6.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "579976956fee29fc8629e528f554b9f7eada760c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.grails/grails-web-common@6.2.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.grails/grails-web-common/6.2.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.javassist/javassist@3.30.2-GA",
+      "supplier": {
+        "name": "org.javassist",
+        "url": [
+          "https://www.javassist.org/"
+        ],
+        "contact": [
+          {
+            "name": "Andrew Dinn",
+            "email": "adinn@redhat.com"
+          },
+          {
+            "name": "Shigeru Chiba",
+            "email": "chiba@javassist.org"
+          },
+          {
+            "name": "Kabir Khan",
+            "email": "kabir.khan@jboss.com"
+          },
+          {
+            "name": "Scott Marlow",
+            "email": "smarlow@redhat.com"
+          }
+        ]
+      },
+      "name": "org.javassist/javassist",
+      "version": "3.30.2-GA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "284580b5e42dfa1b8267058566435d9e93fae7f7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-1.1",
+            "url": "https://www.mozilla.org/en-US/MPL/1.1/"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1",
+            "url": "https://www.gnu.org/licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.javassist/javassist@3.30.2-GA",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.javassist/javassist/3.30.2-GA",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+      "supplier": {
+        "name": "org.reactivestreams",
+        "url": [
+          "http://www.reactive-streams.org/"
+        ],
+        "contact": [
+          {
+            "name": "Reactive Streams SIG"
+          }
+        ]
+      },
+      "name": "org.reactivestreams/reactive-streams",
+      "version": "1.0.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3864a1320d97d7b045f729a326e1e077661f31b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT-0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.reactivestreams/reactive-streams/1.0.4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+      "supplier": {
+        "name": "qos-ch",
+        "url": [
+          "http://www.slf4j.org/"
+        ],
+        "contact": [
+          {
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch"
+          }
+        ]
+      },
+      "name": "org.slf4j/jcl-over-slf4j",
+      "version": "1.7.36",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d877e195a05aca4a2f1ad2ff14bfec1393af4b5e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.slf4j/jcl-over-slf4j/1.7.36",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "supplier": {
+        "name": "qos-ch",
+        "url": [
+          "http://www.slf4j.org/"
+        ],
+        "contact": [
+          {
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch"
+          }
+        ]
+      },
+      "name": "org.slf4j/slf4j-api",
+      "version": "1.7.36",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.slf4j/slf4j-api/1.7.36",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.18",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://spring.io/projects/spring-boot"
+        ],
+        "contact": [
+          {
+            "name": "Spring",
+            "email": "ask@spring.io"
+          }
+        ]
+      },
+      "name": "org.springframework.boot/spring-boot",
+      "version": "2.7.18",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f6dbdd8da7c2bded63dff9b1f48d01a4923f20a0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@2.7.18",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework.boot/spring-boot/2.7.18",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-aop@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-aop",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "704cbef3193806e43355ae06a1c55b56df29db93"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aop@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-aop/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-beans",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a05510a4c9a587aa8bd4a1de1fbcb99226321692"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-beans@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-beans/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-context-support@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-context-support",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1ed573e50eb1243cfae01113f881c6800a9df7c4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context-support@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-context-support/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-context@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-context",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3679c760c0cad805871c2b02a20030d308cb0f97"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-context/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-core",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9aadb3ad15b7144134cfbc809236286796637a49"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-core/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-expression",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6ceeeb730ddee35f7afd759603384553f4f2e26f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-expression@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-expression/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-jcl",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "94f4f4e2e43cd29e370a04229b504b43c67d290e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-jcl@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-jcl/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-test@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-test",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c825f79c22a4f60ecd970a7c0a586a8ddee96061"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-test@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-test/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-tx@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-tx",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ec831193e43f859482fc5fa35a96add6f1e82531"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-tx@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-tx/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-web@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-web",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dc3bd82ba847474d37eb06f1b5924a76069cb666"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-web@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-web/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-webmvc@5.3.33",
+      "supplier": {
+        "name": "spring-projects",
+        "url": [
+          "https://github.com/spring-projects/spring-framework"
+        ],
+        "contact": [
+          {
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io"
+          }
+        ]
+      },
+      "name": "org.springframework/spring-webmvc",
+      "version": "5.3.33",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0ba421d5cb1c9e8d8c03ea6056524655c7b83b97"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-webmvc@5.3.33",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.springframework/spring-webmvc/5.3.33",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@2.0",
+      "supplier": {
+        "name": "org.yaml",
+        "url": [
+          "https://bitbucket.org/snakeyaml/snakeyaml"
+        ],
+        "contact": [
+          {
+            "name": "Alexander Maslov",
+            "email": "alexander.maslov@gmail.com"
+          },
+          {
+            "name": "Andrey Somov",
+            "email": "public.somov@gmail.com"
+          }
+        ]
+      },
+      "name": "org.yaml/snakeyaml",
+      "version": "2.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3aab2116756442bf0d4cd1c089b24d34c3baa253"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.yaml/snakeyaml@2.0",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.yaml/snakeyaml/2.0",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3",
+      "dependsOn": [
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.10.0",
+        "pkg:maven/org.checkerframework/checker-qual@3.19.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.micronaut.cache/micronaut-cache-core@3.5.0",
+      "dependsOn": [
+        "pkg:maven/io.micronaut/micronaut-aop@3.5.4",
+        "pkg:maven/io.micronaut/micronaut-http@3.5.4",
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/io.micronaut/micronaut-runtime@3.10.4",
+        "pkg:maven/io.projectreactor/reactor-core@3.4.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.micronaut.spring/micronaut-spring-context@4.5.1",
+      "dependsOn": [
+        "pkg:maven/io.micronaut.cache/micronaut-cache-core@3.5.0",
+        "pkg:maven/io.micronaut.spring/micronaut-spring@4.5.1",
+        "pkg:maven/io.micronaut/micronaut-aop@3.5.4",
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/org.springframework/spring-context@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.micronaut.spring/micronaut-spring@4.5.1",
+      "dependsOn": [
+        "pkg:maven/io.micronaut/micronaut-aop@3.5.4",
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/org.springframework/spring-context@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33",
+        "pkg:maven/org.springframework/spring-tx@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.micronaut/micronaut-aop@3.5.4",
+      "dependsOn": [
+        "pkg:maven/io.micronaut/micronaut-core@3.10.4",
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.micronaut/micronaut-context@3.10.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.micronaut/micronaut-core-reactive@3.10.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.micronaut/micronaut-core@3.10.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.micronaut/micronaut-http@3.5.4",
+      "dependsOn": [
+        "pkg:maven/io.micronaut/micronaut-core-reactive@3.10.4",
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/io.projectreactor/reactor-core@3.4.21",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+      "dependsOn": [
+        "pkg:maven/io.micronaut/micronaut-core@3.10.4",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+        "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+        "pkg:maven/org.yaml/snakeyaml@2.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.micronaut/micronaut-jackson-databind@3.10.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.micronaut/micronaut-runtime@3.10.4",
+      "dependsOn": [
+        "pkg:maven/io.micronaut/micronaut-aop@3.5.4",
+        "pkg:maven/io.micronaut/micronaut-context@3.10.4",
+        "pkg:maven/io.micronaut/micronaut-core-reactive@3.10.4",
+        "pkg:maven/io.micronaut/micronaut-http@3.5.4",
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/io.micronaut/micronaut-jackson-databind@3.10.4",
+        "pkg:maven/io.projectreactor/reactor-core@3.4.21",
+        "pkg:maven/javax.validation/validation-api@2.0.1.final",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.projectreactor/reactor-core@3.4.21",
+      "dependsOn": [
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.inject/javax.inject@1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.persistence/javax.persistence-api@2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.servlet/javax.servlet-api@4.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.transaction/jta@1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jline/jline@2.14.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.ant/ant-launcher@1.10.14",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.ant/ant@1.10.14",
+      "dependsOn": [
+        "pkg:maven/org.apache.ant/ant-launcher@1.10.14"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@3.19.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.groovy/groovy-json@3.0.21",
+      "dependsOn": [
+        "pkg:maven/org.codehaus.groovy/groovy@3.0.21"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.groovy/groovy-templates@3.0.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.groovy/groovy-xml@3.0.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.fusesource.jansi/jansi@1.18",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.grails/grails-bootstrap@6.2.0",
+      "dependsOn": [
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/org.codehaus.groovy/groovy-templates@3.0.21",
+        "pkg:maven/org.codehaus.groovy/groovy-xml@3.0.21",
+        "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.grails/grails-core@6.2.0",
+      "dependsOn": [
+        "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3",
+        "pkg:maven/io.micronaut.cache/micronaut-cache-core@3.5.0",
+        "pkg:maven/io.micronaut.spring/micronaut-spring-context@4.5.1",
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/io.micronaut/micronaut-runtime@3.10.4",
+        "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+        "pkg:maven/javax.inject/javax.inject@1",
+        "pkg:maven/javax.persistence/javax.persistence-api@2.2",
+        "pkg:maven/jline/jline@2.14.6",
+        "pkg:maven/org.apache.ant/ant@1.10.14",
+        "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+        "pkg:maven/org.fusesource.jansi/jansi@1.18",
+        "pkg:maven/org.grails/grails-bootstrap@6.2.0",
+        "pkg:maven/org.grails/grails-datastore-core@8.1.2",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+        "pkg:maven/org.springframework.boot/spring-boot@2.7.18",
+        "pkg:maven/org.springframework/spring-beans@5.3.33",
+        "pkg:maven/org.springframework/spring-context@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33",
+        "pkg:maven/org.springframework/spring-tx@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.grails/grails-databinding@6.2.0",
+      "dependsOn": [
+        "pkg:maven/org.codehaus.groovy/groovy-xml@3.0.21",
+        "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.grails/grails-datastore-core@8.1.2",
+      "dependsOn": [
+        "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3",
+        "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+        "pkg:maven/javax.persistence/javax.persistence-api@2.2",
+        "pkg:maven/javax.transaction/jta@1.1",
+        "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+        "pkg:maven/org.javassist/javassist@3.30.2-ga",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+        "pkg:maven/org.springframework/spring-beans@5.3.33",
+        "pkg:maven/org.springframework/spring-context@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33",
+        "pkg:maven/org.springframework/spring-tx@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.grails/grails-encoder@6.2.0",
+      "dependsOn": [
+        "pkg:maven/org.codehaus.groovy/groovy-json@3.0.21",
+        "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+        "pkg:maven/org.grails/grails-core@6.2.0",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+        "pkg:maven/org.springframework/spring-web@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.grails/grails-gsp@6.2.1",
+      "dependsOn": [
+        "pkg:maven/org.codehaus.groovy/groovy-templates@3.0.21",
+        "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+        "pkg:maven/org.grails/grails-taglib@6.2.1",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.grails/grails-taglib@6.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.grails/grails-web-common@6.2.0",
+      "dependsOn": [
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.javassist/javassist@3.30.2-GA",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.6.1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.18",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-context@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-aop@5.3.33",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-beans@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-beans@5.3.33",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-context-support@5.3.33",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-beans@5.3.33",
+        "pkg:maven/org.springframework/spring-context@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-context@5.3.33",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@5.3.33",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-jcl@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-expression@5.3.33",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-jcl@5.3.33",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-test@5.3.33",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-tx@5.3.33",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-web@5.3.33",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-beans@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.33",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-aop@5.3.33",
+        "pkg:maven/org.springframework/spring-beans@5.3.33",
+        "pkg:maven/org.springframework/spring-context@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33",
+        "pkg:maven/org.springframework/spring-expression@5.3.33",
+        "pkg:maven/org.springframework/spring-web@5.3.33"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.yaml/snakeyaml@2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.6.1",
+      "dependsOn": []
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "complete",
+      "dependencies": [
+        "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.10.0",
+        "pkg:maven/io.micronaut.cache/micronaut-cache-core@3.5.0",
+        "pkg:maven/io.micronaut.spring/micronaut-spring-context@4.5.1",
+        "pkg:maven/io.micronaut.spring/micronaut-spring@4.5.1",
+        "pkg:maven/io.micronaut/micronaut-aop@3.5.4",
+        "pkg:maven/io.micronaut/micronaut-http@3.5.4",
+        "pkg:maven/io.micronaut/micronaut-inject@3.10.4",
+        "pkg:maven/io.micronaut/micronaut-runtime@3.10.4",
+        "pkg:maven/io.projectreactor/reactor-core@3.4.21",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+        "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+        "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+        "pkg:maven/javax.inject/javax.inject@1",
+        "pkg:maven/javax.persistence/javax.persistence-api@2.2",
+        "pkg:maven/javax.servlet/javax.servlet-api@4.0.1",
+        "pkg:maven/javax.transaction/jta@1.1",
+        "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+        "pkg:maven/jline/jline@2.14.6",
+        "pkg:maven/org.apache.ant/ant-launcher@1.10.14",
+        "pkg:maven/org.apache.ant/ant@1.10.14",
+        "pkg:maven/org.checkerframework/checker-qual@3.19.0",
+        "pkg:maven/org.codehaus.groovy/groovy-json@3.0.21",
+        "pkg:maven/org.codehaus.groovy/groovy-templates@3.0.21",
+        "pkg:maven/org.codehaus.groovy/groovy-xml@3.0.21",
+        "pkg:maven/org.codehaus.groovy/groovy@3.0.21",
+        "pkg:maven/org.fusesource.jansi/jansi@1.18",
+        "pkg:maven/org.grails/grails-bootstrap@6.2.0",
+        "pkg:maven/org.grails/grails-core@6.2.0",
+        "pkg:maven/org.grails/grails-databinding@6.2.0",
+        "pkg:maven/org.grails/grails-datastore-core@8.1.2",
+        "pkg:maven/org.grails/grails-encoder@6.2.0",
+        "pkg:maven/org.grails/grails-gsp@6.2.1",
+        "pkg:maven/org.grails/grails-web-common@6.2.0",
+        "pkg:maven/org.javassist/javassist@3.30.2-GA",
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+        "pkg:maven/org.springframework.boot/spring-boot@2.7.18",
+        "pkg:maven/org.springframework/spring-aop@5.3.33",
+        "pkg:maven/org.springframework/spring-beans@5.3.33",
+        "pkg:maven/org.springframework/spring-context-support@5.3.33",
+        "pkg:maven/org.springframework/spring-context@5.3.33",
+        "pkg:maven/org.springframework/spring-core@5.3.33",
+        "pkg:maven/org.springframework/spring-expression@5.3.33",
+        "pkg:maven/org.springframework/spring-jcl@5.3.33",
+        "pkg:maven/org.springframework/spring-test@5.3.33",
+        "pkg:maven/org.springframework/spring-tx@5.3.33",
+        "pkg:maven/org.springframework/spring-web@5.3.33",
+        "pkg:maven/org.springframework/spring-webmvc@5.3.33",
+        "pkg:maven/org.yaml/snakeyaml@2.0",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.6.1"
+      ]
+    }
+  ]
+}

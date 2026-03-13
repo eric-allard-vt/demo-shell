@@ -1,0 +1,55 @@
+{
+  "packageManager": "GitHub",
+  "fileHashes": [
+    {
+      "digests": [
+        {
+          "hashAlgorithm": "Sha256",
+          "digest": "bb0a9d3ca88ee00c81adb7c636e73b97085f6ef1b52d6d58edbe2b6dc3adeb4d"
+        }
+      ],
+      "filename": "trees.h",
+      "path": "/usr/src/app/host/conan_and_hash_scan/third_party/zlib/trees.h"
+    },
+    {
+      "digests": [
+        {
+          "hashAlgorithm": "Sha256",
+          "digest": "de3eb74ce4ae83dd43c9b40e9759655e430cd2d478e66988c147e1002c6690fa"
+        }
+      ],
+      "filename": "crc32_table_le.h",
+      "path": "/usr/src/app/host/conan_and_hash_scan/third_party/xz/crc32_table_le.h"
+    },
+    {
+      "digests": [
+        {
+          "hashAlgorithm": "Sha256",
+          "digest": "00041fb7df099aa21affed07142e3c737fc1d535e91c7e5f7a873b08f7ab8846"
+        }
+      ],
+      "filename": "pnginfo.h",
+      "path": "/usr/src/app/host/conan_and_hash_scan/third_party/png/pnginfo.h"
+    },
+    {
+      "digests": [
+        {
+          "hashAlgorithm": "Sha256",
+          "digest": "07a4252eaacc3e0ba1cb59b06acd9a478a616f6718fccf4a3f2151519bc20b17"
+        }
+      ],
+      "filename": "pngdebug.h",
+      "path": "/usr/src/app/host/conan_and_hash_scan/third_party/png/pngdebug.h"
+    },
+    {
+      "digests": [
+        {
+          "hashAlgorithm": "Sha256",
+          "digest": "24f46235e29428498b2ba408c3b46c2134cef512f8cb1b64d5ac6532f38e986c"
+        }
+      ],
+      "filename": "any.h",
+      "path": "/usr/src/app/host/conan_and_hash_scan/third_party/absl/any.h"
+    }
+  ]
+}

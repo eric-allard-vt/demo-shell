@@ -1,0 +1,2426 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:69199eb2-fe66-4df2-81a6-2c95422a4293",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-12T13:15:20Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "bom-ref": "SOOS-SCA_35.32.6.3",
+          "name": "SOOS SCA",
+          "version": "35.32.6.3",
+          "externalReferences": [
+            {
+              "url": "https://soos.io/",
+              "type": "website"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Josh Jennings",
+        "email": "jjennings\u002Btestaware@soos.io"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "pkg:generic/image-resizer@1.3.0",
+      "publisher": "TestAware",
+      "name": "image-resizer",
+      "version": "1.3.0",
+      "description": "SOOS SCA scan against image-resizer (Manifest Scans), with: Dev Dependencies Enabled, Scan Full Dependency Tree Enabled, Use Lock Files Disabled",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "89c12c44d74a90eebdb2bb4a8fe359951f4596cecbbdc234e4208cb8331f38a7"
+        }
+      ]
+    },
+    "manufacturer": {
+      "name": "SOOS SCA",
+      "url": ["https://soos.io/"]
+    },
+    "supplier": {
+      "name": "TestAware",
+      "contact": [
+        {
+          "name": "Josh Jennings",
+          "email": "jjennings\u002Btestaware@soos.io"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "CC0-1.0"
+        }
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/aws-sdk@2.1692.0",
+      "supplier": {
+        "name": "aws",
+        "url": ["https://github.com/aws/aws-sdk-js"],
+        "contact": [
+          {
+            "name": "Amazon Web Services"
+          },
+          {
+            "name": "Loren Segal",
+            "email": "lsegal@amazon.com"
+          },
+          {
+            "name": "Trevor Rowe",
+            "email": "trevrowe@amazon.com"
+          }
+        ]
+      },
+      "name": "aws-sdk",
+      "version": "2.1692.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9dac5f7bfcc5ab45825cc8591b12753aa7d2902c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/aws-sdk@2.1692.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/aws/aws-sdk-js",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/aws/aws-sdk-js",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/aws-sdk/v/2.1692.0",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/aws-sdk@2.1692.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "aws-sdk",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "2.1692.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/aws-sdk@2.1692.0",
+            "location": "package.json:28"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/chai@1.9.2",
+      "supplier": {
+        "name": "chaijs",
+        "url": ["http://chaijs.com/"],
+        "contact": [
+          {
+            "name": "Domenic Denicola",
+            "email": "domenic@domenicdenicola.com"
+          },
+          {
+            "name": "Veselin Todorov",
+            "email": "hi@vesln.com"
+          },
+          {
+            "name": "Jake Luer",
+            "email": "jake@alogicalparadox.com"
+          },
+          {
+            "name": "Jake Luer",
+            "email": "jake@alogicalparadox.com"
+          },
+          {
+            "name": "John Firebaugh",
+            "email": "john.firebaugh@gmail.com"
+          }
+        ]
+      },
+      "name": "chai",
+      "version": "1.9.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3f1a20f82b0b9d7437577d24d6f12b1a69d3b590"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/chai@1.9.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/chaijs/chai.git",
+          "type": "vcs"
+        },
+        {
+          "url": "http://chaijs.com/",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/chai/v/1.9.2",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/chai@1.9.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "chai",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.9.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/chai@1.9.2",
+            "location": "package.json:44"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/chalk@5.6.1",
+      "name": "chalk",
+      "version": "5.6.1",
+      "licenses": [],
+      "purl": "pkg:npm/chalk@5.6.1",
+      "externalReferences": []
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/concat-stream@1.4.11",
+      "supplier": {
+        "name": "maxogden",
+        "url": ["https://github.com/maxogden/concat-stream#readme"],
+        "contact": [
+          {
+            "name": "Max Ogden",
+            "email": "max@maxogden.com"
+          }
+        ]
+      },
+      "name": "concat-stream",
+      "version": "1.4.11",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1dc9f666f2621da9c618b1e7f8f3b2ff70b5f76f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/concat-stream@1.4.11",
+      "externalReferences": [
+        {
+          "url": "https://github.com/maxogden/concat-stream.git",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/maxogden/concat-stream#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/concat-stream/v/1.4.11",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/concat-stream@1.4.11",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "concat-stream",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.4.11",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/concat-stream@1.4.11",
+            "location": "package.json:31"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/connect-livereload@0.3.2",
+      "supplier": {
+        "name": "intesso",
+        "url": ["https://github.com/intesso/connect-livereload#readme"],
+        "contact": [
+          {
+            "name": "Andi Neck",
+            "email": "andi.neck@intesso.com"
+          },
+          {
+            "name": "Andi Neck",
+            "email": "andi.neck@intesso.com"
+          }
+        ]
+      },
+      "name": "connect-livereload",
+      "version": "0.3.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ddb70aa50901d583783662770e3d3b63d7ce40ff"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/connect-livereload@0.3.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/intesso/connect-livereload",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/intesso/connect-livereload#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/connect-livereload/v/0.3.2",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/connect-livereload@0.3.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "connect-livereload",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "0.3.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/connect-livereload@0.3.2",
+            "location": "package.json:45"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/dotenv@0.2.8",
+      "supplier": {
+        "name": "motdotla",
+        "url": ["https://github.com/motdotla/dotenv#readme"],
+        "contact": [
+          {
+            "name": "scottmotte"
+          }
+        ]
+      },
+      "name": "dotenv",
+      "version": "0.2.8",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "22795b2d6d6bbfa2129ed7b3ab8338f09bae94f9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:npm/dotenv@0.2.8",
+      "externalReferences": [
+        {
+          "url": "https://github.com/motdotla/dotenv.git",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/motdotla/dotenv#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/dotenv/v/0.2.8",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/dotenv@0.2.8",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "dotenv",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "0.2.8",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/dotenv@0.2.8",
+            "location": "package.json:46"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/ejs@1.0.0",
+      "supplier": {
+        "name": "mde",
+        "url": ["https://github.com/mde/ejs"],
+        "contact": [
+          {
+            "name": "TJ Holowaychuk",
+            "email": "tj@vision-media.ca"
+          }
+        ]
+      },
+      "name": "ejs",
+      "version": "1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ejs@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/mde/ejs",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/mde/ejs",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/ejs/v/1.0.0",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/ejs@1.0.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "ejs",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.0.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/ejs@1.0.0",
+            "location": "package.json:47"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/errorhandler@1.5.2",
+      "supplier": {
+        "name": "expressjs",
+        "url": ["https://github.com/expressjs/errorhandler#readme"],
+        "contact": [
+          {
+            "name": "Douglas Christopher Wilson",
+            "email": "doug@somethingdoug.com"
+          },
+          {
+            "name": "Jonathan Ong",
+            "email": "me@jongleberry.com"
+          }
+        ]
+      },
+      "name": "errorhandler",
+      "version": "1.5.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dd0aa3952eca44aff7c2985e7d246c5932d70444"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/errorhandler@1.5.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/expressjs/errorhandler",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/expressjs/errorhandler#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/errorhandler/v/1.5.2",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/errorhandler@1.5.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "errorhandler",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.5.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/errorhandler@1.5.2",
+            "location": "package.json:32"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/express@4.22.1",
+      "supplier": {
+        "name": "expressjs",
+        "url": ["https://expressjs.com/"],
+        "contact": [
+          {
+            "name": "Aaron Heckmann",
+            "email": "aaron.heckmann\u002Bgithub@gmail.com"
+          },
+          {
+            "name": "Ciaran Jessup",
+            "email": "ciaranj@gmail.com"
+          },
+          {
+            "name": "Douglas Christopher Wilson",
+            "email": "doug@somethingdoug.com"
+          },
+          {
+            "name": "Guillermo Rauch",
+            "email": "rauchg@gmail.com"
+          },
+          {
+            "name": "TJ Holowaychuk",
+            "email": "tj@vision-media.ca"
+          }
+        ]
+      },
+      "name": "express",
+      "version": "4.22.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1de23a09745a4fffdb39247b344bb5eaff382069"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/express@4.22.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/expressjs/express.git",
+          "type": "vcs"
+        },
+        {
+          "url": "https://expressjs.com/",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/express/v/4.22.1",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/express@4.22.1",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "express",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "4.22.1",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/express@4.22.1",
+            "location": "package.json:33"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/glob@3.2.11",
+      "supplier": {
+        "name": "isaacs",
+        "url": ["https://github.com/isaacs/node-glob#readme"],
+        "contact": [
+          {
+            "name": "Isaac Z. Schlueter",
+            "email": "i@izs.me"
+          }
+        ]
+      },
+      "name": "glob",
+      "version": "3.2.11",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4a973f635b9190f715d10987d5c00fd2815ebe3d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:npm/glob@3.2.11",
+      "externalReferences": [
+        {
+          "url": "https://github.com/isaacs/node-glob",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/isaacs/node-glob#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/glob/v/3.2.11",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/glob@3.2.11",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "glob",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "3.2.11",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/glob@3.2.11",
+            "location": "package.json:34"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/gulp-bump@0.1.13",
+      "supplier": {
+        "name": "stephenlacy",
+        "url": ["https://github.com/stevelacy/gulp-bump"],
+        "contact": [
+          {
+            "name": "Steve Lacy",
+            "email": "me@slacy.me"
+          }
+        ]
+      },
+      "name": "gulp-bump",
+      "version": "0.1.13",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4e1b0da8d56267566c3d8b832da8c0833939f702"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://github.com/stevelacy/gulp-bump/raw/master/LICENSE"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gulp-bump@0.1.13",
+      "externalReferences": [
+        {
+          "url": "https://github.com/stephenlacy/gulp-bump",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/stevelacy/gulp-bump",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/gulp-bump/v/0.1.13",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/gulp-bump@0.1.13",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "gulp-bump",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "0.1.13",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/gulp-bump@0.1.13",
+            "location": "package.json:49"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/gulp-jshint@1.4.2",
+      "supplier": {
+        "name": "spalger",
+        "url": ["http://github.com/spalger/gulp-jshint"],
+        "contact": [
+          {
+            "name": "Fractal",
+            "email": "contact@wearefractal.com"
+          }
+        ]
+      },
+      "name": "gulp-jshint",
+      "version": "1.4.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fc3a57355ff4a6390288b30f4654b9858477ed3b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://github.com/wearefractal/gulp-jshint/raw/master/LICENSE"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gulp-jshint@1.4.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/spalger/gulp-jshint",
+          "type": "vcs"
+        },
+        {
+          "url": "http://github.com/spalger/gulp-jshint",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/gulp-jshint/v/1.4.2",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/gulp-jshint@1.4.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "gulp-jshint",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.4.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/gulp-jshint@1.4.2",
+            "location": "package.json:50"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/gulp-nodemon@1.0.5",
+      "supplier": {
+        "name": "ColemanGariety",
+        "url": ["https://github.com/JacksonGariety/gulp-nodemon"],
+        "contact": [
+          {
+            "name": "Jackson Gariety"
+          }
+        ]
+      },
+      "name": "gulp-nodemon",
+      "version": "1.0.5",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "08d7ead2e557de0592f5ed4b98a4177086065a7b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gulp-nodemon@1.0.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/ColemanGariety/gulp-nodemon",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/JacksonGariety/gulp-nodemon",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/gulp-nodemon/v/1.0.5",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/gulp-nodemon@1.0.5",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "gulp-nodemon",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.0.5",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/gulp-nodemon@1.0.5",
+            "location": "package.json:51"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/gulp-util@2.2.20",
+      "supplier": {
+        "name": "gulpjs",
+        "url": ["https://github.com/gulpjs/gulp-util#readme"],
+        "contact": [
+          {
+            "name": "Fractal",
+            "email": "contact@wearefractal.com"
+          }
+        ]
+      },
+      "name": "gulp-util",
+      "version": "2.2.20",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d7146e5728910bd8f047a6b0b1e549bc22dbd64c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://github.com/wearefractal/gulp-util/raw/master/LICENSE"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gulp-util@2.2.20",
+      "externalReferences": [
+        {
+          "url": "https://github.com/gulpjs/gulp-util",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/gulpjs/gulp-util#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/gulp-util/v/2.2.20",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.9,
+            "concludedValue": "pkg:npm/gulp-util@2.2.20",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.9,
+            "concludedValue": "gulp-util",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.9,
+            "concludedValue": "2.2.20",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/gulp-util@2.2.20",
+            "location": "package.json:52"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/gulp@3.9.1",
+      "supplier": {
+        "name": "gulpjs",
+        "url": ["https://gulpjs.com/"],
+        "contact": [
+          {
+            "name": "Fractal",
+            "email": "contact@wearefractal.com"
+          }
+        ]
+      },
+      "name": "gulp",
+      "version": "3.9.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "571ce45928dd40af6514fc4011866016c13845b4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gulp@3.9.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/gulpjs/gulp",
+          "type": "vcs"
+        },
+        {
+          "url": "https://gulpjs.com/",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/gulp/v/3.9.1",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/gulp@3.9.1",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "gulp",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "3.9.1",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/gulp@3.9.1",
+            "location": "package.json:48"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/image-type@2.1.0",
+      "supplier": {
+        "name": "sindresorhus",
+        "url": ["https://github.com/sindresorhus/image-type#readme"],
+        "contact": [
+          {
+            "name": "Sindre Sorhus",
+            "email": "sindresorhus@gmail.com"
+          }
+        ]
+      },
+      "name": "image-type",
+      "version": "2.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "976f2388176447dca0d23317c275ba4875a35d02"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/image-type@2.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/sindresorhus/image-type",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/sindresorhus/image-type#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/image-type/v/2.1.0",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/image-type@2.1.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "image-type",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "2.1.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/image-type@2.1.0",
+            "location": "package.json:35"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/jshint-stylish@0.1.5",
+      "supplier": {
+        "name": "sindresorhus",
+        "url": ["https://github.com/sindresorhus/jshint-stylish#readme"],
+        "contact": [
+          {
+            "name": "Sindre Sorhus",
+            "email": "sindresorhus@gmail.com"
+          }
+        ]
+      },
+      "name": "jshint-stylish",
+      "version": "0.1.5",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d41b6eef8e06a4ddfb36540bf6593fe31b987236"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/jshint-stylish@0.1.5",
+      "externalReferences": [
+        {
+          "url": "https://github.com/sindresorhus/jshint-stylish",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/sindresorhus/jshint-stylish#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/jshint-stylish/v/0.1.5",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/jshint-stylish@0.1.5",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "jshint-stylish",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "0.1.5",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/jshint-stylish@0.1.5",
+            "location": "package.json:53"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash@2.4.2",
+      "supplier": {
+        "name": "lodash",
+        "url": ["https://lodash.com/"],
+        "contact": [
+          {
+            "name": "Blaine Bublitz",
+            "email": "blaine@iceddev.com"
+          },
+          {
+            "name": "Kit Cambridge",
+            "email": "github@kitcambridge.be"
+          },
+          {
+            "name": "John-David Dalton",
+            "email": "john.david.dalton@gmail.com"
+          },
+          {
+            "name": "John-David Dalton",
+            "email": "john.david.dalton@gmail.com"
+          },
+          {
+            "name": "Mathias Bynens",
+            "email": "mathias@qiwi.be"
+          }
+        ]
+      },
+      "name": "lodash",
+      "version": "2.4.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fadd834b9683073da179b3eae6d9c0d15053f73e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash@2.4.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lodash/lodash",
+          "type": "vcs"
+        },
+        {
+          "url": "https://lodash.com/",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/lodash/v/2.4.2",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/lodash@2.4.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "lodash",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "2.4.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/lodash@2.4.2",
+            "location": "package.json:36"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/map-stream@0.1.0",
+      "supplier": {
+        "name": "dominictarr",
+        "url": ["http://github.com/dominictarr/map-stream"],
+        "contact": [
+          {
+            "name": "Dominic Tarr",
+            "email": "dominic.tarr@gmail.com"
+          }
+        ]
+      },
+      "name": "map-stream",
+      "version": "0.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e56aa94c4c8055a16404a0674b78f215f7c8e194"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/map-stream@0.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dominictarr/map-stream.git",
+          "type": "vcs"
+        },
+        {
+          "url": "http://github.com/dominictarr/map-stream",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/map-stream/v/0.1.0",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.9,
+            "concludedValue": "pkg:npm/map-stream@0.1.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.9,
+            "concludedValue": "map-stream",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.9,
+            "concludedValue": "0.1.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/map-stream@0.1.0",
+            "location": "package.json:37"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/mkdirp@0.5.6",
+      "supplier": {
+        "name": "isaacs",
+        "url": ["https://github.com/isaacs/node-mkdirp#readme"],
+        "contact": [
+          {
+            "name": "James Halliday",
+            "email": "mail@substack.net"
+          }
+        ]
+      },
+      "name": "mkdirp",
+      "version": "0.5.6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7def03d2432dcae4ba1d611445c48396062255f6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mkdirp@0.5.6",
+      "externalReferences": [
+        {
+          "url": "https://github.com/isaacs/node-mkdirp",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/isaacs/node-mkdirp#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/mkdirp/v/0.5.6",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.9,
+            "concludedValue": "pkg:npm/mkdirp@0.5.6",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.9,
+            "concludedValue": "mkdirp",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.9,
+            "concludedValue": "0.5.6",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.9
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/mkdirp@0.5.6",
+            "location": "package.json:38"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/morgan@1.10.1",
+      "supplier": {
+        "name": "expressjs",
+        "url": ["https://github.com/expressjs/morgan#readme"],
+        "contact": [
+          {
+            "name": "Douglas Christopher Wilson",
+            "email": "doug@somethingdoug.com"
+          },
+          {
+            "name": "Jonathan Ong",
+            "email": "me@jongleberry.com"
+          }
+        ]
+      },
+      "name": "morgan",
+      "version": "1.10.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4e02e6a4465a48e26af540191593955d17f61570"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/morgan@1.10.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/expressjs/morgan",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/expressjs/morgan#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/morgan/v/1.10.1",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/morgan@1.10.1",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "morgan",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.10.1",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/morgan@1.10.1",
+            "location": "package.json:39"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/sandboxed-module@1.0.3",
+      "supplier": {
+        "name": "felixge",
+        "url": ["https://github.com/felixge/node-sandboxed-module#readme"],
+        "contact": [
+          {
+            "name": "Felix Geisend\u00F6rfer",
+            "email": "felix@debuggable.com"
+          }
+        ]
+      },
+      "name": "sandboxed-module",
+      "version": "1.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6278fa957a94f58a2e369e12d4a1adff9f182194"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/sandboxed-module@1.0.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/felixge/node-sandboxed-module",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/felixge/node-sandboxed-module#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/sandboxed-module/v/1.0.3",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/sandboxed-module@1.0.3",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "sandboxed-module",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.0.3",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/sandboxed-module@1.0.3",
+            "location": "package.json:54"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/sharp@0.11.4",
+      "supplier": {
+        "name": "lovell",
+        "url": ["https://sharp.pixelplumbing.com/"],
+        "contact": [
+          {
+            "name": "Chanon Sajjamanochai",
+            "email": "chanon.s@gmail.com"
+          },
+          {
+            "name": "Jonathan Ong",
+            "email": "jonathanrichardong@gmail.com"
+          },
+          {
+            "name": "Juliano Julio",
+            "email": "julianojulio@gmail.com"
+          },
+          {
+            "name": "Lovell Fuller",
+            "email": "npm@lovell.info"
+          },
+          {
+            "name": "Pierre Inglebert",
+            "email": "pierre.inglebert@gmail.com"
+          }
+        ]
+      },
+      "name": "sharp",
+      "version": "0.11.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f74a1e9dcb12ec36ffbcf5de3e2b62a05fd9963c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/sharp@0.11.4",
+      "externalReferences": [
+        {
+          "url": "https://github.com/lovell/sharp",
+          "type": "vcs"
+        },
+        {
+          "url": "https://sharp.pixelplumbing.com/",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/sharp/v/0.11.4",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/sharp@0.11.4",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "sharp",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "0.11.4",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/sharp@0.11.4",
+            "location": "package.json:40"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/sinon-chai@2.5.0",
+      "supplier": {
+        "name": "chaijs",
+        "url": ["https://github.com/chaijs/sinon-chai#readme"],
+        "contact": [
+          {
+            "name": "Domenic Denicola",
+            "email": "domenic@domenicdenicola.com"
+          }
+        ]
+      },
+      "name": "sinon-chai",
+      "version": "2.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5628e6850b703e8412eb0d94a5c1c5bc79236018"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "WTFPL"
+          }
+        }
+      ],
+      "purl": "pkg:npm/sinon-chai@2.5.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/chaijs/sinon-chai",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/chaijs/sinon-chai#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/sinon-chai/v/2.5.0",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/sinon-chai@2.5.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "sinon-chai",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "2.5.0",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/sinon-chai@2.5.0",
+            "location": "package.json:56"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/sinon@1.8.2",
+      "supplier": {
+        "name": "sinonjs",
+        "url": ["https://sinonjs.org/"],
+        "contact": [
+          {
+            "name": "Christian Johansen"
+          }
+        ]
+      },
+      "name": "sinon",
+      "version": "1.8.2",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ed3382994f518f998979fa1358a8972786e27d6d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "http://github.com/cjohansen/Sinon.JS/blob/master/LICENSE"
+          }
+        }
+      ],
+      "purl": "pkg:npm/sinon@1.8.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/sinonjs/sinon.git",
+          "type": "vcs"
+        },
+        {
+          "url": "https://sinonjs.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/sinon/v/1.8.2",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/sinon@1.8.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "sinon",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.8.2",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/sinon@1.8.2",
+            "location": "package.json:55"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/twit@1.1.20",
+      "supplier": {
+        "name": "ttezel",
+        "url": ["https://github.com/ttezel/twit#readme"],
+        "contact": [
+          {
+            "name": "Tolga Tezel"
+          }
+        ]
+      },
+      "name": "twit",
+      "version": "1.1.20",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "170e67d018798482caf2998dd4c6f8f29cb54861"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/twit@1.1.20",
+      "externalReferences": [
+        {
+          "url": "https://github.com/ttezel/twit",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/ttezel/twit#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/twit/v/1.1.20",
+          "type": "website"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.92,
+            "concludedValue": "pkg:npm/twit@1.1.20",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "name",
+            "confidence": 0.92,
+            "concludedValue": "twit",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          },
+          {
+            "field": "version",
+            "confidence": 0.92,
+            "concludedValue": "1.1.20",
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.91999996
+              }
+            ],
+            "tools": ["SOOS-SCA_35.32.6.3"]
+          }
+        ],
+        "occurrences": [
+          {
+            "bom-ref": "loc-bc224776-370c-4218-aca8-e0c3d4430605-pkg:npm/twit@1.1.20",
+            "location": "package.json:41"
+          }
+        ]
+      }
+    }
+  ],
+  "dependencies": [],
+  "compositions": [],
+  "signature": {
+    "algorithm": "RS256",
+    "keyId": "SOOS-SBOM-SIGNING-KEY",
+    "publicKey": {
+      "kty": "RSA",
+      "n": "-Z_2O-ihCy9v7vysgOwK-9g7cSXqvuZF3Ai0jtE0ROjbYG9RsiBWt9BKDOhu-c3LeSyKTeD-AKf7fqJK6B2FekrPk9flibWvAsHkIpbbU4TPwXju1Ou1_Sp5vYCmVaWSGrTbPQRmIh6970j5m3iqMl4LitA9oQlnDBq0sk_ivw4XSnggr5FOGRe51OSrwRLlzwVLlDFV-_ft2ji8P-FYSoGlRBNs4CMK-F-IPNggBiUuNJQbvmqjtm217yMLkJJIsXiEuyFlWxrbxVyQWChXHcLBF66xQ1pC4_N5PKDq_lpp2XNSYI7IRQ1M_bt1oWdYRA7D388SF-KhO2DDScduDlruqlACkjHrrPjpGfqx97XA-wGEquhY-6w3dlzyuWH7_YzQ968yJ9c2xvY9BGmuJfdwq_IJ2jrbFoPF3gObtI2G3QcHeGZzIgath0qbRXQMi5aJgy0Xd2cNma-hSW5a-Q-a-rfezou_E13_wGfrRtCeULQt_nL0BTYRk7OOth1GYuFZJuYcahZxoalXaN6Os7jpzM6z7d9N98P6FGtKjnAPUaqpgUaMm2UhTlXeVpHaR19HfHAvqmkWo8oQySBZ167Q9e-NETBybBX7rdBYuQrcGFxuu-_TK_ha77m9RHSBNGdVvrWRE_89QZzxblGCH9KINoIXSY_DZQyIaPt9T_k",
+      "e": "AQAB"
+    },
+    "value": "NoIraqI13OCC35TXwZcYaiJlS4_VjkSRIDdWb7rb8FWo9DzF28rsgn4Zms4-N8cGKEoakUzuKL3fkAph5XI68iAL5BuKf2v-7pvkLkz21Fh3yOOTR5twlHZtxxd0KEqSMSfsBagdDNW8Ch6CZM5hnoH2m0tae3x2m-VD5BQza-TXnorrLII_rnUVEDQGdGDWpWx-Jbv99yIiSFgl9KCpxXr-GRXDcgJorpvmv4JQFb7SmyxAIKVjZobr1JeznKTUX2WkDB9x1den80ksKGZIKX_4H-V0764aWzga3NRUZaE9vCULo91bNtI2Jixr-6l8Xgp0Vhv3He6ywd5iASFfRM5rFXyn8C-PvakesRmsOh3Q1mvAB5Oak7rN03jwbrxmQTqW6vj2sGa0Y3-fiosy5tKO93fNS3kxQgAeFqCLAqzk18x-GMl1l8CedTQ5BAs4WAUVcyaPP-7LkHmAFwGSdbpfpEub3GbuYY6T_R6RrcpmztzMIjObyc9nz2NlIBaijKFBqdLFUaDCyOPLvVfHU21dfPEdJkAdFFvXpyNbUKE6bM8hMNkxcH5mrIL80E-Jmq58kA_nY3MSvu6SaeyPY7ZqokdcVGviGtqw_I7D2RTOjRLzwUXR-A7Z24iBrDT7gFTuOh2_Dgewuc44yIYS5LeJrZUsvQWrDZMZddTVRQw"
+  }
+}

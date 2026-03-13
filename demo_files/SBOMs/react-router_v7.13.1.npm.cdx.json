@@ -1,0 +1,181 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.6",
+    "serialNumber": "urn:uuid:45a8c66d-8256-49f3-800f-4f22462e7a5c",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2026-03-06T14:47:32Z",
+        "tools": {
+            "components": [
+                {
+                    "type": "application",
+                    "bom-ref": "SOOS-SCA_35.32.3.2",
+                    "name": "SOOS SCA",
+                    "version": "35.32.3.2",
+                    "externalReferences": [
+                        {
+                            "url": "https://soos.io/",
+                            "type": "website"
+                        },
+                        {
+                            "url": "https://soos.io/terms-of-service",
+                            "type": "license",
+                            "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io"
+                        }
+                    ]
+                }
+            ]
+        },
+        "authors": [
+            {
+                "email": "support@soos.io"
+            }
+        ],
+        "component": {
+            "type": "library",
+            "bom-ref": "pkg:npm/react-router@7.13.1",
+            "supplier": {
+                "name": "remix-run",
+                "url": [
+                    "https://github.com/remix-run/react-router#readme"
+                ],
+                "contact": [
+                    {
+                        "name": "Remix Software",
+                        "email": "hello@remix.run"
+                    }
+                ]
+            },
+            "name": "react-router-2",
+            "version": "7.13.1",
+            "description": "SOOS SCA scan for pkg:npm/react-router@7.13.1",
+            "hashes": [
+                {
+                    "alg": "SHA-256",
+                    "content": "7e7258e759adccfbe30604483b59a2f611f089aacc73b0d4321e951d2d801d36"
+                }
+            ],
+            "purl": "pkg:npm/react-router@7.13.1"
+        },
+        "manufacturer": {
+            "name": "SOOS SCA",
+            "url": [
+                "https://soos.io/"
+            ]
+        },
+        "supplier": {
+            "name": "SOOS LLC",
+            "contact": [
+                {
+                    "email": "support@soos.io"
+                }
+            ]
+        },
+        "licenses": [
+            {
+                "license": {
+                    "id": "CC0-1.0"
+                }
+            }
+        ],
+        "lifecycles": [
+            {
+                "phase": "pre-build"
+            }
+        ]
+    },
+    "components": [
+        {
+            "type": "library",
+            "bom-ref": "pkg:npm/react-router@7.13.1",
+            "supplier": {
+                "name": "remix-run",
+                "url": [
+                    "https://github.com/remix-run/react-router#readme"
+                ],
+                "contact": [
+                    {
+                        "name": "Remix Software",
+                        "email": "hello@remix.run"
+                    }
+                ]
+            },
+            "name": "react-router",
+            "version": "7.13.1",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "5e2b3ebafd6c78d9775e135474bf5060645077f7"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:npm/react-router@7.13.1",
+            "externalReferences": [
+                {
+                    "url": "https://github.com/remix-run/react-router",
+                    "type": "vcs"
+                },
+                {
+                    "url": "https://github.com/remix-run/react-router#readme",
+                    "type": "website"
+                },
+                {
+                    "url": "https://www.npmjs.com/package/react-router/v/7.13.1",
+                    "type": "website"
+                }
+            ],
+            "evidence": {
+                "identity": [
+                    {
+                        "field": "purl",
+                        "confidence": 0.92,
+                        "concludedValue": "pkg:npm/react-router@7.13.1",
+                        "methods": [],
+                        "tools": [
+                            "SOOS-SCA_35.32.3.2"
+                        ]
+                    },
+                    {
+                        "field": "name",
+                        "confidence": 0.92,
+                        "concludedValue": "react-router",
+                        "methods": [],
+                        "tools": [
+                            "SOOS-SCA_35.32.3.2"
+                        ]
+                    },
+                    {
+                        "field": "version",
+                        "confidence": 0.92,
+                        "concludedValue": "7.13.1",
+                        "methods": [],
+                        "tools": [
+                            "SOOS-SCA_35.32.3.2"
+                        ]
+                    }
+                ],
+                "occurrences": []
+            }
+        }
+    ],
+    "dependencies": [
+    ],
+    "compositions": [
+    ],
+    "signature": {
+        "algorithm": "RS256",
+        "keyId": "SOOS-SBOM-SIGNING-KEY",
+        "publicKey": {
+            "kty": "RSA",
+            "n": "-Z_2O-ihCy9v7vysgOwK-9g7cSXqvuZF3Ai0jtE0ROjbYG9RsiBWt9BKDOhu-c3LeSyKTeD-AKf7fqJK6B2FekrPk9flibWvAsHkIpbbU4TPwXju1Ou1_Sp5vYCmVaWSGrTbPQRmIh6970j5m3iqMl4LitA9oQlnDBq0sk_ivw4XSnggr5FOGRe51OSrwRLlzwVLlDFV-_ft2ji8P-FYSoGlRBNs4CMK-F-IPNggBiUuNJQbvmqjtm217yMLkJJIsXiEuyFlWxrbxVyQWChXHcLBF66xQ1pC4_N5PKDq_lpp2XNSYI7IRQ1M_bt1oWdYRA7D388SF-KhO2DDScduDlruqlACkjHrrPjpGfqx97XA-wGEquhY-6w3dlzyuWH7_YzQ968yJ9c2xvY9BGmuJfdwq_IJ2jrbFoPF3gObtI2G3QcHeGZzIgath0qbRXQMi5aJgy0Xd2cNma-hSW5a-Q-a-rfezou_E13_wGfrRtCeULQt_nL0BTYRk7OOth1GYuFZJuYcahZxoalXaN6Os7jpzM6z7d9N98P6FGtKjnAPUaqpgUaMm2UhTlXeVpHaR19HfHAvqmkWo8oQySBZ167Q9e-NETBybBX7rdBYuQrcGFxuu-_TK_ha77m9RHSBNGdVvrWRE_89QZzxblGCH9KINoIXSY_DZQyIaPt9T_k",
+            "e": "AQAB"
+        },
+        "value": "HsljP9V5nFcA5f69Miq3NctuuHFlgaY2NXhf1pT9SsxhQj-PxxqUJ-g5OUbZLiyCjJW6XnbrbELkWo-JDPLwUZA8Vi_Vf-ssgHMpBDWaTvjpE_6bCrsBTC-W84wJOJMV72FBmQCPuuBqT-xoToOU5_ANwHFp4ERJDSCRxKdUzikah7UVn5NdBPckDv9gh9gkK2tnWtv_t_kvWlAteZGIepjBCN7oAOiuP7pnBJRlIQK-UlAs6RxVgg9zYw1tWu3c2uM1BKAw1nZfBKacURBau1XK3OXYkf6fwDBPI0DVUiFTJK-J6abvlYfhlGub1VtQLfMymwARQ4K3dNGl_SHJMxM2Zh-P-H3bOpswY78P700l0LphqqwLvW4K8IbEzFYyX3ZfIztIVdPd8UVo2yuEYBe21uyiCaPvwfPB6Ro4ROr73W9Wn6_px3M-li3scynMg1DTxG5hn_h7WVSkK6UY1yivRgS069SDwQx2q82TlIH3nVz6YOGIroHusF7e5hexfeaR4hJcJHGCvFB-5ElFDgwaov4i73SQl0KVaW1GcsmBKzZ9L3VlKxxRQdO2wOCIuO-0NOg3krFfiVitwsxbKucTzea9qWkUO1gjAChdSck4nF-WmkU4-Od8ozzh8DUbAoVEbiJOTa3IvX7iwJE1BcRsF1QRXSAS2rNsTh1aS9M"
+    }
+}

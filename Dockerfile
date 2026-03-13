@@ -8,11 +8,12 @@ RUN apk add --no-cache docker-cli bash zsh
 # Set working directory
 WORKDIR /usr/src/app
 
-# Copy project files and the script into the container
+# Copy project files into the container
 COPY . .
-COPY init-demo-env.sh /usr/src/app/init-demo-env.sh
 
 RUN chmod +x /usr/src/app/init-demo-env.sh
+RUN cp /usr/src/app/.bashrc /root/.bashrc
+RUN mkdir -p /usr/src/app/demo_files/exports
 
 # Use init script to start the container
 CMD ["/usr/src/app/init-demo-env.sh"]
