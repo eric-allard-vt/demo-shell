@@ -1,0 +1,58 @@
+name: SOOS SCA Scan - Artifacts
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    name: Java Maven Build
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
+
+      - name: Copy artifacts
+        run: mkdir staging && cp target/*.jar staging
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: com.acme.application.zip
+          path: staging
+
+  soos-sca-analysis:
+    needs: build
+    name: SOOS SCA Scan
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v5
+        with:
+          name: com.acme.application.zip
+
+      - name: List artifacts
+        run: ls -R ./
+
+      - name: Run SOOS Scan
+        uses: soos-io/soos-sca-github-action@main
+        with:
+          api_url: ${{ secrets.SOOS_API_URL }}
+          client_id: ${{ secrets.SOOS_CLIENT_ID }}
+          api_key: ${{ secrets.SOOS_API_KEY }}
+          project_name: "com.acme.application"
+          branch_name: "artifacts"
+          file_match_type: "FileHash"

@@ -1,0 +1,30 @@
+{
+  "name": "app_dependency_scan",
+  "version": "5.6.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup:install": "npm install",
+    "setup:clean-install": "npm ci",
+  },
+  "dependencies": {
+    "@mui/lab": "^7.0.0-beta.17",
+    "@mui/material": "^7.3.2",
+    "uuid": "^13.0.0",
+	"chalk": "5.6.1",
+	"debug": "4.4.2"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "knip": "^5.63.1",
+    "prettier": "^3.6.2",
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.50.0"
+  },
+  "overrides": {
+    "refractor": {
+      "prismjs": "^1.30.0"
+    }
+  }
+}

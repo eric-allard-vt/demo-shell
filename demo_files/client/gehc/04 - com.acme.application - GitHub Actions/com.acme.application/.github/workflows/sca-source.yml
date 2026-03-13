@@ -1,0 +1,23 @@
+name: SOOS SCA Scan - Source
+
+on:
+  workflow_dispatch:
+
+jobs:
+  soos-sca-analysis:
+    name: SOOS SCA Scan
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@master
+
+      - name: Run SOOS Scan
+        uses: soos-io/soos-sca-github-action@v2
+        with:
+          api_url: ${{ secrets.SOOS_API_URL }}
+          client_id: ${{ secrets.SOOS_CLIENT_ID }}
+          api_key: ${{ secrets.SOOS_API_KEY }}
+          project_name: "com.acme.application"
+          branch_name: "source"
