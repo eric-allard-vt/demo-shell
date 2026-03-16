@@ -36,6 +36,29 @@ docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock demo-shell:<tag
 
 ---
 
+## Cleanup
+
+Over time, `docker pull` and container scans leave behind dangling images and stopped containers. Use the cleanup script to reclaim disk space:
+
+```bash
+# From the host, run the cleanup script (keeps 6 most recent snapshots by default)
+./cleanup-demo.sh
+
+# Keep a different number of snapshots
+./cleanup-demo.sh 3
+```
+
+The `init-demo-env.sh` script also prunes dangling images automatically at the start of each session.
+
+For a one-time deep clean:
+
+```bash
+docker container prune -f
+docker image prune -f
+```
+
+---
+
 ## To build the image locally
 
 ```bash

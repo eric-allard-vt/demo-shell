@@ -19,13 +19,13 @@ export SOOS_API_URL="https://api.soos.io/api/"
 
 # Container - example of a task you would run in your build agent to
 # import container scan results using a Docker container
-docker run --platform linux/amd64 -d soosio/csa \
+docker run --rm --platform linux/amd64 -d soosio/csa \
 --clientId=$SOOS_CLIENT_ID \
 --apiKey=$SOOS_API_KEY \
 --apiURL=$SOOS_API_URL \
 --projectName="elasticsearch:x86 - Container Scan" ericallard/elasticsearch:x86
 
-docker run --platform linux/amd64 -it soosio/csa \
+docker run --rm --platform linux/amd64 -it soosio/csa \
 --clientId=$SOOS_CLIENT_ID \
 --apiKey=$SOOS_API_KEY \
 --apiURL=$SOOS_API_URL \
@@ -131,7 +131,7 @@ node ./soos/node_modules/@soos-io/soos-sca/bin/index.js \
   --onFailure="fail_the_build" \
   --projectName="SCA Scan fail build"
 
-docker run -d  \
+docker run --rm -d  \
 soosio/csa --clientId=$SOOS_CLIENT_ID \
 --apiKey=$SOOS_API_KEY \
 --projectName="soosio/dast" soosio/dast
@@ -139,7 +139,7 @@ soosio/csa --clientId=$SOOS_CLIENT_ID \
 # gitleaks (secrets scanner)
 # Mount a git repo from your host via ./host/ and scan it
 # With this syntax, point to a path that's a git repo or it won't work
-docker run -v "./host/lots-o-secrets:/path" -v \
+docker run --rm -v "./host/lots-o-secrets:/path" -v \
 "./host/output:/output" zricethezav/gitleaks:latest \
 detect \
 --source="/path" \
@@ -149,7 +149,7 @@ detect \
 
 # without additional explicit bind to output folder, just write to /path in scanned directory
 # with this syntax point to a path that's a git repo or it won't work
-docker run -v "./host/lots-o-secrets:/path" zricethezav/gitleaks:latest \
+docker run --rm -v "./host/lots-o-secrets:/path" zricethezav/gitleaks:latest \
 detect \
 --source="/path" \
 --config="/path/gitleaks.toml" \
@@ -174,12 +174,12 @@ node ./soos/node_modules/@soos-io/soos-sast/bin/index.js \
 curl -X GET "https://api-stats.soos.io/api/enterprise/clients/$SOOS_CLIENT_ID/package-managers/npm/package-attributions/cycloneDx?packageId=axios&packageVersion=0.20.0&includeVulnerabilities=true" \
 -H "accept: application/json" -H "x-soos-apikey: $SOOS_API_KEY"
 
-docker run --platform linux/amd64 -it soosio/csa \
+docker run --rm --platform linux/amd64 -it soosio/csa \
 --clientId=$SOOS_CLIENT_ID \
 --apiKey=$SOOS_API_KEY \
 --projectName="ruby:alpine3.18" us-east4-docker.pkg.dev/forbes-production/containers/simple-site/production:a7ad2edddc222c7e0daccbe57f82fe06ad03403068e7d4ad34770f6ccd75efb2
 
-docker run --platform linux/amd64 -it \
+docker run --rm --platform linux/amd64 -it \
   -v /var/run/docker.sock:/var/run/docker.sock \
   soosio/csa \
   --clientId=$SOOS_CLIENT_ID \

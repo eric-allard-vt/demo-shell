@@ -8,6 +8,11 @@ IMAGE_NAME="demo-shell"
 TIMESTAMP=$(date +%Y%m%d-%H%M%S)
 
 ############################################
+# 0) Prune dangling images from prior pulls
+############################################
+docker image prune -f
+
+############################################
 # 1) Install / pull the latest SOOS tools
 ############################################
 [ -d "./soos" ] && rm -rf "./soos"
